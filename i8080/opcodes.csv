@@ -1,256 +1,257 @@
-0x00,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x01,lxi,REG_B,IMM_WORD,3,10,10,FLAG_NONE
-0x02,stax,REG_B,NO_OPERAND,1,7,7,FLAG_NONE
-0x03,inx,REG_B,NO_OPERAND,1,5,5,FLAG_NONE
-0x04,inr,REG_B,NO_OPERAND,1,5,5,FLAG_SZAP
-0x05,dcr,REG_B,NO_OPERAND,1,5,5,FLAG_SZAP
-0x06,mvi,REG_B,IMM_BYTE,2,7,7,FLAG_NONE
-0x07,rlc,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x08,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x09,dad,REG_B,NO_OPERAND,1,10,10,FLAG_C
-0x0a,ldax,REG_B,NO_OPERAND,1,7,7,FLAG_NONE
-0x0b,dcx,REG_B,NO_OPERAND,1,5,5,FLAG_NONE
-0x0c,inr,REG_C,NO_OPERAND,1,5,5,FLAG_SZAP
-0x0d,dcr,REG_C,NO_OPERAND,1,5,5,FLAG_SZAP
-0x0e,mvi,REG_C,IMM_BYTE,2,7,7,FLAG_NONE
-0x0f,rrc,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x10,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x11,lxi,REG_D,IMM_WORD,3,10,10,FLAG_NONE
-0x12,stax,REG_D,NO_OPERAND,1,7,7,FLAG_NONE
-0x13,inx,REG_D,NO_OPERAND,1,5,5,FLAG_NONE
-0x14,inr,REG_D,NO_OPERAND,1,5,5,FLAG_SZAP
-0x15,dcr,REG_D,NO_OPERAND,1,5,5,FLAG_SZAP
-0x16,mvi,REG_D,IMM_BYTE,2,7,7,FLAG_NONE
-0x17,ral,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x18,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x19,dad,REG_D,NO_OPERAND,1,10,10,FLAG_C
-0x1a,ldax,REG_D,NO_OPERAND,1,7,7,FLAG_NONE
-0x1b,dcx,REG_D,NO_OPERAND,1,5,5,FLAG_NONE
-0x1c,inr,REG_E,NO_OPERAND,1,5,5,FLAG_SZAP
-0x1d,dcr,REG_E,NO_OPERAND,1,5,5,FLAG_SZAP
-0x1e,mvi,REG_E,IMM_BYTE,2,7,7,FLAG_NONE
-0x1f,rar,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x20,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x21,lxi,REG_H,IMM_WORD,3,10,10,FLAG_NONE
-0x22,shld,IMM_WORD,NO_OPERAND,3,16,16,FLAG_NONE
-0x23,inx,REG_H,NO_OPERAND,1,5,5,FLAG_NONE
-0x24,inr,REG_H,NO_OPERAND,1,5,5,FLAG_SZAP
-0x25,dcr,REG_H,NO_OPERAND,1,5,5,FLAG_SZAP
-0x26,mvi,REG_H,IMM_BYTE,2,7,7,FLAG_NONE
-0x27,daa,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x28,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x29,dad,REG_H,NO_OPERAND,1,10,10,FLAG_C
-0x2a,lhld,IMM_WORD,NO_OPERAND,3,16,16,FLAG_NONE
-0x2b,dcx,REG_H,NO_OPERAND,1,5,5,FLAG_NONE
-0x2c,inr,REG_L,NO_OPERAND,1,5,5,FLAG_SZAP
-0x2d,dcr,REG_L,NO_OPERAND,1,5,5,FLAG_SZAP
-0x2e,mvi,REG_L,IMM_BYTE,2,7,7,FLAG_NONE
-0x2f,cma,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x30,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x31,lxi,REG_SP,IMM_WORD,3,10,10,FLAG_NONE
-0x32,sta,IMM_WORD,NO_OPERAND,3,13,13,FLAG_NONE
-0x33,inx,REG_SP,NO_OPERAND,1,5,5,FLAG_NONE
-0x34,inr,MEM_HL,NO_OPERAND,1,5,5,FLAG_SZAP
-0x35,dcr,MEM_HL,NO_OPERAND,1,5,5,FLAG_SZAP
-0x36,mvi,MEM_HL,IMM_BYTE,2,7,7,FLAG_NONE
-0x37,stc,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x38,nop,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0x39,dad,REG_SP,NO_OPERAND,1,10,10,FLAG_C
-0x3a,lda,IMM_WORD,NO_OPERAND,3,13,13,FLAG_NONE
-0x3b,dcx,REG_SP,NO_OPERAND,1,5,5,FLAG_NONE
-0x3c,inr,REG_A,NO_OPERAND,1,5,5,FLAG_SZAP
-0x3d,dcr,REG_A,NO_OPERAND,1,5,5,FLAG_SZAP
-0x3e,mvi,REG_A,IMM_BYTE,2,7,7,FLAG_NONE
-0x3f,cmc,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_C
-0x40,mov,REG_B,REG_B,1,5,5,FLAG_NONE
-0x41,mov,REG_B,REG_C,1,5,5,FLAG_NONE
-0x42,mov,REG_B,REG_D,1,5,5,FLAG_NONE
-0x43,mov,REG_B,REG_E,1,5,5,FLAG_NONE
-0x44,mov,REG_B,REG_H,1,5,5,FLAG_NONE
-0x45,mov,REG_B,REG_L,1,5,5,FLAG_NONE
-0x46,mov,REG_B,MEM_HL,1,7,7,FLAG_NONE
-0x47,mov,REG_B,REG_A,1,5,5,FLAG_NONE
-0x48,mov,REG_B,REG_B,1,5,5,FLAG_NONE
-0x49,mov,REG_C,REG_C,1,5,5,FLAG_NONE
-0x4a,mov,REG_C,REG_D,1,5,5,FLAG_NONE
-0x4b,mov,REG_C,REG_E,1,5,5,FLAG_NONE
-0x4c,mov,REG_C,REG_H,1,5,5,FLAG_NONE
-0x4d,mov,REG_C,REG_L,1,5,5,FLAG_NONE
-0x4e,mov,REG_C,MEM_HL,1,7,7,FLAG_NONE
-0x4f,mov,REG_C,REG_A,1,5,5,FLAG_NONE
-0x50,mov,REG_C,REG_B,1,5,5,FLAG_NONE
-0x51,mov,REG_D,REG_C,1,5,5,FLAG_NONE
-0x52,mov,REG_D,REG_D,1,5,5,FLAG_NONE
-0x53,mov,REG_D,REG_E,1,5,5,FLAG_NONE
-0x54,mov,REG_D,REG_H,1,5,5,FLAG_NONE
-0x55,mov,REG_D,REG_L,1,5,5,FLAG_NONE
-0x56,mov,REG_D,MEM_HL,1,7,7,FLAG_NONE
-0x57,mov,REG_D,REG_A,1,5,5,FLAG_NONE
-0x58,mov,REG_D,REG_B,1,5,5,FLAG_NONE
-0x59,mov,REG_E,REG_C,1,5,5,FLAG_NONE
-0x5a,mov,REG_E,REG_D,1,5,5,FLAG_NONE
-0x5b,mov,REG_E,REG_E,1,5,5,FLAG_NONE
-0x5c,mov,REG_E,REG_H,1,5,5,FLAG_NONE
-0x5d,mov,REG_E,REG_L,1,5,5,FLAG_NONE
-0x5e,mov,REG_E,MEM_HL,1,7,7,FLAG_NONE
-0x5f,mov,REG_E,REG_A,1,5,5,FLAG_NONE
-0x60,mov,REG_E,REG_B,1,5,5,FLAG_NONE
-0x61,mov,REG_H,REG_C,1,5,5,FLAG_NONE
-0x62,mov,REG_H,REG_D,1,5,5,FLAG_NONE
-0x63,mov,REG_H,REG_E,1,5,5,FLAG_NONE
-0x64,mov,REG_H,REG_H,1,5,5,FLAG_NONE
-0x65,mov,REG_H,REG_L,1,5,5,FLAG_NONE
-0x66,mov,REG_H,MEM_HL,1,7,7,FLAG_NONE
-0x67,mov,REG_H,REG_A,1,5,5,FLAG_NONE
-0x68,mov,REG_H,REG_B,1,5,5,FLAG_NONE
-0x69,mov,REG_L,REG_C,1,5,5,FLAG_NONE
-0x6a,mov,REG_L,REG_D,1,5,5,FLAG_NONE
-0x6b,mov,REG_L,REG_E,1,5,5,FLAG_NONE
-0x6c,mov,REG_L,REG_H,1,5,5,FLAG_NONE
-0x6d,mov,REG_L,REG_L,1,5,5,FLAG_NONE
-0x6e,mov,REG_L,MEM_HL,1,7,7,FLAG_NONE
-0x6f,mov,REG_L,REG_A,1,5,5,FLAG_NONE
-0x70,mov,REG_L,REG_B,1,5,5,FLAG_NONE
-0x71,mov,MEM_HL,REG_C,1,7,7,FLAG_NONE
-0x72,mov,MEM_HL,REG_D,1,7,7,FLAG_NONE
-0x73,mov,MEM_HL,REG_E,1,7,7,FLAG_NONE
-0x74,mov,MEM_HL,REG_H,1,7,7,FLAG_NONE
-0x75,mov,MEM_HL,REG_L,1,7,7,FLAG_NONE
-0x76,hlt,NO_OPERAND,NO_OPERAND,1,7,7,FLAG_NONE
-0x77,mov,MEM_HL,REG_A,1,7,7,FLAG_NONE
-0x78,mov,MEM_HL,REG_B,1,7,7,FLAG_NONE
-0x79,mov,REG_A,REG_C,1,5,5,FLAG_NONE
-0x7a,mov,REG_A,REG_D,1,5,5,FLAG_NONE
-0x7b,mov,REG_A,REG_E,1,5,5,FLAG_NONE
-0x7c,mov,REG_A,REG_H,1,5,5,FLAG_NONE
-0x7d,mov,REG_A,REG_L,1,5,5,FLAG_NONE
-0x7e,mov,REG_A,MEM_HL,1,7,7,FLAG_NONE
-0x7f,mov,REG_A,REG_A,1,5,5,FLAG_NONE
-0x80,add,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x81,add,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x82,add,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x83,add,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x84,add,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x85,add,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x86,add,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x87,add,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x88,add,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x89,adc,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x8a,adc,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x8b,adc,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x8c,adc,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x8d,adc,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x8e,adc,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x8f,adc,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x90,adc,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x91,sub,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x92,sub,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x93,sub,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x94,sub,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x95,sub,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x96,sub,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x97,sub,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x98,sub,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x99,sbb,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x9a,sbb,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x9b,sbb,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x9c,sbb,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x9d,sbb,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x9e,sbb,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0x9f,sbb,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa0,sbb,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa1,ana,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa2,ana,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa3,ana,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa4,ana,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa5,ana,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa6,ana,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa7,ana,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa8,ana,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xa9,xra,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xaa,xra,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xab,xra,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xac,xra,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xad,xra,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xae,xra,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xaf,xra,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb0,xra,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb1,ora,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb2,ora,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb3,ora,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb4,ora,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb5,ora,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb6,ora,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb7,ora,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb8,ora,REG_B,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xb9,cmp,REG_C,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xba,cmp,REG_D,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xbb,cmp,REG_E,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xbc,cmp,REG_H,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xbd,cmp,REG_L,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xbe,cmp,MEM_HL,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xbf,cmp,REG_A,NO_OPERAND,1,4,4,FLAG_SZAPC
-0xc0,rnz,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xc1,pop,REG_B,NO_OPERAND,1,10,10,FLAG_NONE
-0xc2,jnz,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xc3,jmp,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xc4,cnz,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xc5,push,REG_B,NO_OPERAND,1,11,11,FLAG_NONE
-0xc6,adi,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xc7,rst,0x00,NO_OPERAND,1,11,11,FLAG_NONE
-0xc8,rz,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xc9,ret,NO_OPERAND,NO_OPERAND,1,10,10,FLAG_NONE
-0xca,jz,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xcb,jmp,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xcc,cz,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xcd,call,IMM_WORD,NO_OPERAND,3,17,17,FLAG_NONE
-0xce,aci,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xcf,rst,0x08,NO_OPERAND,1,11,11,FLAG_NONE
-0xd0,rnc,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xd1,pop,REG_D,NO_OPERAND,1,10,10,FLAG_NONE
-0xd2,jnc,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xd3,out,IMM_BYTE,NO_OPERAND,2,10,10,FLAG_NONE
-0xd4,cnc,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xd5,push,REG_D,NO_OPERAND,1,11,11,FLAG_NONE
-0xd6,sui,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xd7,rst,0x10,NO_OPERAND,1,11,11,FLAG_NONE
-0xd8,rc,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xd9,ret,NO_OPERAND,NO_OPERAND,1,10,10,FLAG_NONE
-0xda,jc,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xdb,in,IMM_BYTE,NO_OPERAND,2,10,10,FLAG_NONE
-0xdc,cc,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xdd,call,IMM_WORD,NO_OPERAND,3,17,17,FLAG_NONE
-0xde,sbi,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xdf,rst,0x18,NO_OPERAND,1,11,11,FLAG_NONE
-0xe0,rpo,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xe1,pop,REG_H,NO_OPERAND,1,10,10,FLAG_NONE
-0xe2,jpo,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xe3,xthl,NO_OPERAND,NO_OPERAND,1,18,18,FLAG_NONE
-0xe4,cpo,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xe5,push,REG_H,NO_OPERAND,1,11,11,FLAG_NONE
-0xe6,ani,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xe7,rst,0x20,NO_OPERAND,1,11,11,FLAG_NONE
-0xe8,rpe,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xe9,pchl,NO_OPERAND,NO_OPERAND,1,5,5,FLAG_NONE
-0xea,jpe,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xeb,xchg,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0xec,cpe,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xed,call,IMM_WORD,NO_OPERAND,3,17,17,FLAG_NONE
-0xee,xri,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xef,rst,0x28,NO_OPERAND,1,11,11,FLAG_NONE
-0xf0,rp,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xf1,pop,REG_PSW,NO_OPERAND,1,10,10,FLAG_SZAPC
-0xf2,jp,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xf3,di,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0xf4,cp,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xf5,push,REG_PSW,NO_OPERAND,1,11,11,FLAG_NONE
-0xf6,ori,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xf7,rst,0x30,NO_OPERAND,1,11,11,FLAG_NONE
-0xf8,rm,NO_OPERAND,NO_OPERAND,1,5,11,FLAG_NONE
-0xf9,sphl,NO_OPERAND,NO_OPERAND,1,5,5,FLAG_NONE
-0xfa,jm,IMM_WORD,NO_OPERAND,3,10,10,FLAG_NONE
-0xfb,ei,NO_OPERAND,NO_OPERAND,1,4,4,FLAG_NONE
-0xfc,cm,IMM_WORD,NO_OPERAND,3,11,17,FLAG_NONE
-0xfd,call,IMM_WORD,NO_OPERAND,3,17,17,FLAG_NONE
-0xfe,cpi,IMM_BYTE,NO_OPERAND,2,7,7,FLAG_SZAPC
-0xff,rst,0x38,NO_OPERAND,1,11,11,FLAG_NONE
+opcode, mnemonic, bytes, min. cycles, max. cycles, flags affected
+"0x00","NOP","1","4","4","- - - - -"
+"0x01","LXI B,d16","3","10","10","- - - - -"
+"0x02","STAX B","1","7","7","- - - - -"
+"0x03","INX B","1","5","5","- - - - -"
+"0x04","INR B","1","5","5","S Z A P -"
+"0x05","DCR B","1","5","5","S Z A P -"
+"0x06","MVI B,d8","2","7","7","- - - - -"
+"0x07","RLC","1","4","4","- - - - C"
+"0x08","NOP","1","4","4","- - - - -"
+"0x09","DAD B","1","10","10","- - - - C"
+"0x0a","LDAX B","1","7","7","- - - - -"
+"0x0b","DCX B","1","5","5","- - - - -"
+"0x0c","INR C","1","5","5","S Z A P -"
+"0x0d","DCR C","1","5","5","S Z A P -"
+"0x0e","MVI C,d8","2","7","7","- - - - -"
+"0x0f","RRC","1","4","4","- - - - C"
+"0x10","NOP","1","4","4","- - - - -"
+"0x11","LXI D,d16","3","10","10","- - - - -"
+"0x12","STAX D","1","7","7","- - - - -"
+"0x13","INX D","1","5","5","- - - - -"
+"0x14","INR D","1","5","5","S Z A P -"
+"0x15","DCR D","1","5","5","S Z A P -"
+"0x16","MVI D,d8","2","7","7","- - - - -"
+"0x17","RAL","1","4","4","- - - - C"
+"0x18","NOP","1","4","4","- - - - -"
+"0x19","DAD D","1","10","10","- - - - C"
+"0x1a","LDAX D","1","7","7","- - - - -"
+"0x1b","DCX D","1","5","5","- - - - -"
+"0x1c","INR E","1","5","5","S Z A P -"
+"0x1d","DCR E","1","5","5","S Z A P -"
+"0x1e","MVI E,d8","2","7","7","- - - - -"
+"0x1f","RAR","1","4","4","- - - - C"
+"0x20","NOP","1","4","4","- - - - -"
+"0x21","LXI H,d16","3","10","10","- - - - -"
+"0x22","SHLD a16","3","16","16","- - - - -"
+"0x23","INX H","1","5","5","- - - - -"
+"0x24","INR H","1","5","5","S Z A P -"
+"0x25","DCR H","1","5","5","S Z A P -"
+"0x26","MVI H,d8","2","7","7","- - - - -"
+"0x27","DAA","1","4","4","S Z A P C"
+"0x28","NOP","1","4","4","- - - - -"
+"0x29","DAD H","1","10","10","- - - - C"
+"0x2a","LHLD a16","3","16","16","- - - - -"
+"0x2b","DCX H","1","5","5","- - - - -"
+"0x2c","INR L","1","5","5","S Z A P -"
+"0x2d","DCR L","1","5","5","S Z A P -"
+"0x2e","MVI L,d8","2","7","7","- - - - -"
+"0x2f","CMA","1","4","4","- - - - -"
+"0x30","NOP","1","4","4","- - - - -"
+"0x31","LXI SP,d16","3","10","10","- - - - -"
+"0x32","STA a16","3","13","13","- - - - -"
+"0x33","INX SP","1","5","5","- - - - -"
+"0x34","INR M","1","10","10","S Z A P -"
+"0x35","DCR M","1","10","10","S Z A P -"
+"0x36","MVI M,d8","2","10","10","- - - - -"
+"0x37","STC","1","4","4","- - - - C"
+"0x38","NOP","1","4","4","- - - - -"
+"0x39","DAD SP","1","10","10","- - - - C"
+"0x3a","LDA a16","3","13","13","- - - - -"
+"0x3b","DCX SP","1","5","5","- - - - -"
+"0x3c","INR A","1","5","5","S Z A P -"
+"0x3d","DCR A","1","5","5","S Z A P -"
+"0x3e","MVI A,d8","2","7","7","- - - - -"
+"0x3f","CMC","1","4","4","- - - - C"
+"0x40","MOV B,B","1","5","5","- - - - -"
+"0x41","MOV B,C","1","5","5","- - - - -"
+"0x42","MOV B,D","1","5","5","- - - - -"
+"0x43","MOV B,E","1","5","5","- - - - -"
+"0x44","MOV B,H","1","5","5","- - - - -"
+"0x45","MOV B,L","1","5","5","- - - - -"
+"0x46","MOV B,M","1","7","7","- - - - -"
+"0x47","MOV B,A","1","5","5","- - - - -"
+"0x48","MOV C,B","1","5","5","- - - - -"
+"0x49","MOV C,C","1","5","5","- - - - -"
+"0x4a","MOV C,D","1","5","5","- - - - -"
+"0x4b","MOV C,E","1","5","5","- - - - -"
+"0x4c","MOV C,H","1","5","5","- - - - -"
+"0x4d","MOV C,L","1","5","5","- - - - -"
+"0x4e","MOV C,M","1","7","7","- - - - -"
+"0x4f","MOV C,A","1","5","5","- - - - -"
+"0x50","MOV D,B","1","5","5","- - - - -"
+"0x51","MOV D,C","1","5","5","- - - - -"
+"0x52","MOV D,D","1","5","5","- - - - -"
+"0x53","MOV D,E","1","5","5","- - - - -"
+"0x54","MOV D,H","1","5","5","- - - - -"
+"0x55","MOV D,L","1","5","5","- - - - -"
+"0x56","MOV D,M","1","7","7","- - - - -"
+"0x57","MOV D,A","1","5","5","- - - - -"
+"0x58","MOV E,B","1","5","5","- - - - -"
+"0x59","MOV E,C","1","5","5","- - - - -"
+"0x5a","MOV E,D","1","5","5","- - - - -"
+"0x5b","MOV E,E","1","5","5","- - - - -"
+"0x5c","MOV E,H","1","5","5","- - - - -"
+"0x5d","MOV E,L","1","5","5","- - - - -"
+"0x5e","MOV E,M","1","7","7","- - - - -"
+"0x5f","MOV E,A","1","5","5","- - - - -"
+"0x60","MOV H,B","1","5","5","- - - - -"
+"0x61","MOV H,C","1","5","5","- - - - -"
+"0x62","MOV H,D","1","5","5","- - - - -"
+"0x63","MOV H,E","1","5","5","- - - - -"
+"0x64","MOV H,H","1","5","5","- - - - -"
+"0x65","MOV H,L","1","5","5","- - - - -"
+"0x66","MOV H,M","1","7","7","- - - - -"
+"0x67","MOV H,A","1","5","5","- - - - -"
+"0x68","MOV L,B","1","5","5","- - - - -"
+"0x69","MOV L,C","1","5","5","- - - - -"
+"0x6a","MOV L,D","1","5","5","- - - - -"
+"0x6b","MOV L,E","1","5","5","- - - - -"
+"0x6c","MOV L,H","1","5","5","- - - - -"
+"0x6d","MOV L,L","1","5","5","- - - - -"
+"0x6e","MOV L,M","1","7","7","- - - - -"
+"0x6f","MOV L,A","1","5","5","- - - - -"
+"0x70","MOV M,B","1","7","7","- - - - -"
+"0x71","MOV M,C","1","7","7","- - - - -"
+"0x72","MOV M,D","1","7","7","- - - - -"
+"0x73","MOV M,E","1","7","7","- - - - -"
+"0x74","MOV M,H","1","7","7","- - - - -"
+"0x75","MOV M,L","1","7","7","- - - - -"
+"0x76","HLT","1","7","7","- - - - -"
+"0x77","MOV M,A","1","7","7","- - - - -"
+"0x78","MOV A,B","1","5","5","- - - - -"
+"0x79","MOV A,C","1","5","5","- - - - -"
+"0x7a","MOV A,D","1","5","5","- - - - -"
+"0x7b","MOV A,E","1","5","5","- - - - -"
+"0x7c","MOV A,H","1","5","5","- - - - -"
+"0x7d","MOV A,L","1","5","5","- - - - -"
+"0x7e","MOV A,M","1","7","7","- - - - -"
+"0x7f","MOV A,A","1","5","5","- - - - -"
+"0x80","ADD B","1","4","4","S Z A P C"
+"0x81","ADD C","1","4","4","S Z A P C"
+"0x82","ADD D","1","4","4","S Z A P C"
+"0x83","ADD E","1","4","4","S Z A P C"
+"0x84","ADD H","1","4","4","S Z A P C"
+"0x85","ADD L","1","4","4","S Z A P C"
+"0x86","ADD M","1","7","7","S Z A P C"
+"0x87","ADD A","1","4","4","S Z A P C"
+"0x88","ADC B","1","4","4","S Z A P C"
+"0x89","ADC C","1","4","4","S Z A P C"
+"0x8a","ADC D","1","4","4","S Z A P C"
+"0x8b","ADC E","1","4","4","S Z A P C"
+"0x8c","ADC H","1","4","4","S Z A P C"
+"0x8d","ADC L","1","4","4","S Z A P C"
+"0x8e","ADC M","1","7","7","S Z A P C"
+"0x8f","ADC A","1","4","4","S Z A P C"
+"0x90","SUB B","1","4","4","S Z A P C"
+"0x91","SUB C","1","4","4","S Z A P C"
+"0x92","SUB D","1","4","4","S Z A P C"
+"0x93","SUB E","1","4","4","S Z A P C"
+"0x94","SUB H","1","4","4","S Z A P C"
+"0x95","SUB L","1","4","4","S Z A P C"
+"0x96","SUB M","1","7","7","S Z A P C"
+"0x97","SUB A","1","4","4","S Z A P C"
+"0x98","SBB B","1","4","4","S Z A P C"
+"0x99","SBB C","1","4","4","S Z A P C"
+"0x9a","SBB D","1","4","4","S Z A P C"
+"0x9b","SBB E","1","4","4","S Z A P C"
+"0x9c","SBB H","1","4","4","S Z A P C"
+"0x9d","SBB L","1","4","4","S Z A P C"
+"0x9e","SBB M","1","7","7","S Z A P C"
+"0x9f","SBB A","1","4","4","S Z A P C"
+"0xa0","ANA B","1","4","4","S Z A P C"
+"0xa1","ANA C","1","4","4","S Z A P C"
+"0xa2","ANA D","1","4","4","S Z A P C"
+"0xa3","ANA E","1","4","4","S Z A P C"
+"0xa4","ANA H","1","4","4","S Z A P C"
+"0xa5","ANA L","1","4","4","S Z A P C"
+"0xa6","ANA M","1","7","7","S Z A P C"
+"0xa7","ANA A","1","4","4","S Z A P C"
+"0xa8","XRA B","1","4","4","S Z A P C"
+"0xa9","XRA C","1","4","4","S Z A P C"
+"0xaa","XRA D","1","4","4","S Z A P C"
+"0xab","XRA E","1","4","4","S Z A P C"
+"0xac","XRA H","1","4","4","S Z A P C"
+"0xad","XRA L","1","4","4","S Z A P C"
+"0xae","XRA M","1","7","7","S Z A P C"
+"0xaf","XRA A","1","4","4","S Z A P C"
+"0xb0","ORA B","1","4","4","S Z A P C"
+"0xb1","ORA C","1","4","4","S Z A P C"
+"0xb2","ORA D","1","4","4","S Z A P C"
+"0xb3","ORA E","1","4","4","S Z A P C"
+"0xb4","ORA H","1","4","4","S Z A P C"
+"0xb5","ORA L","1","4","4","S Z A P C"
+"0xb6","ORA M","1","7","7","S Z A P C"
+"0xb7","ORA A","1","4","4","S Z A P C"
+"0xb8","CMP B","1","4","4","S Z A P C"
+"0xb9","CMP C","1","4","4","S Z A P C"
+"0xba","CMP D","1","4","4","S Z A P C"
+"0xbb","CMP E","1","4","4","S Z A P C"
+"0xbc","CMP H","1","4","4","S Z A P C"
+"0xbd","CMP L","1","4","4","S Z A P C"
+"0xbe","CMP M","1","7","7","S Z A P C"
+"0xbf","CMP A","1","4","4","S Z A P C"
+"0xc0","RNZ","1","11","5","- - - - -"
+"0xc1","POP B","1","10","10","- - - - -"
+"0xc2","JNZ a16","3","10","10","- - - - -"
+"0xc3","JMP a16","3","10","10","- - - - -"
+"0xc4","CNZ a16","3","17","11","- - - - -"
+"0xc5","PUSH B","1","11","11","- - - - -"
+"0xc6","ADI d8","2","7","7","S Z A P C"
+"0xc7","RST 0","1","11","11","- - - - -"
+"0xc8","RZ","1","11","5","- - - - -"
+"0xc9","RET","1","10","10","- - - - -"
+"0xca","JZ a16","3","10","10","- - - - -"
+"0xcb","JMP a16","3","10","10","- - - - -"
+"0xcc","CZ a16","3","17","11","- - - - -"
+"0xcd","CALL a16","3","17","17","- - - - -"
+"0xce","ACI d8","2","7","7","S Z A P C"
+"0xcf","RST 1","1","11","11","- - - - -"
+"0xd0","RNC","1","11","5","- - - - -"
+"0xd1","POP D","1","10","10","- - - - -"
+"0xd2","JNC a16","3","10","10","- - - - -"
+"0xd3","OUT d8","2","10","10","- - - - -"
+"0xd4","CNC a16","3","17","11","- - - - -"
+"0xd5","PUSH D","1","11","11","- - - - -"
+"0xd6","SUI d8","2","7","7","S Z A P C"
+"0xd7","RST 2","1","11","11","- - - - -"
+"0xd8","RC","1","11","5","- - - - -"
+"0xd9","RET","1","10","10","- - - - -"
+"0xda","JC a16","3","10","10","- - - - -"
+"0xdb","IN d8","2","10","10","- - - - -"
+"0xdc","CC a16","3","17","11","- - - - -"
+"0xdd","CALL a16","3","17","17","- - - - -"
+"0xde","SBI d8","2","7","7","S Z A P C"
+"0xdf","RST 3","1","11","11","- - - - -"
+"0xe0","RPO","1","11","5","- - - - -"
+"0xe1","POP H","1","10","10","- - - - -"
+"0xe2","JPO a16","3","10","10","- - - - -"
+"0xe3","XTHL","1","18","18","- - - - -"
+"0xe4","CPO a16","3","17","11","- - - - -"
+"0xe5","PUSH H","1","11","11","- - - - -"
+"0xe6","ANI d8","2","7","7","S Z A P C"
+"0xe7","RST 4","1","11","11","- - - - -"
+"0xe8","RPE","1","11","5","- - - - -"
+"0xe9","PCHL","1","5","5","- - - - -"
+"0xea","JPE a16","3","10","10","- - - - -"
+"0xeb","XCHG","1","5","5","- - - - -"
+"0xec","CPE a16","3","17","11","- - - - -"
+"0xed","CALL a16","3","17","17","- - - - -"
+"0xee","XRI d8","2","7","7","S Z A P C"
+"0xef","RST 5","1","11","11","- - - - -"
+"0xf0","RP","1","11","5","- - - - -"
+"0xf1","POP PSW","1","10","10","S Z A P C"
+"0xf2","JP a16","3","10","10","- - - - -"
+"0xf3","DI","1","4","4","- - - - -"
+"0xf4","CP a16","3","17","11","- - - - -"
+"0xf5","PUSH PSW","1","11","11","- - - - -"
+"0xf6","ORI d8","2","7","7","S Z A P C"
+"0xf7","RST 6","1","11","11","- - - - -"
+"0xf8","RM","1","11","5","- - - - -"
+"0xf9","SPHL","1","5","5","- - - - -"
+"0xfa","JM a16","3","10","10","- - - - -"
+"0xfb","EI","1","4","4","- - - - -"
+"0xfc","CM a16","3","17","11","- - - - -"
+"0xfd","CALL a16","3","17","17","- - - - -"
+"0xfe","CPI d8","2","7","7","S Z A P C"
+"0xff","RST 7","1","11","11","- - - - -"
