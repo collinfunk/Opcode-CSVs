@@ -6,7 +6,7 @@
 import bs4
 import string
 
-FILE = 'z80.html'
+FILE = '../z80.html'
 
 class Z80_instruction:
     def __init__(self, dict_val: dict):
@@ -97,6 +97,9 @@ class Z80_instruction:
         
     def __str__(self):
         # csv format
+        # Commas in the mnemonic are wrapped in quotes
+        if self.mnemonic is not None and ',' in self.mnemonic:
+            self.mnemonic = '"' + self.mnemonic + '"'
         str = f'{self.opcode},{self.type},{self.mnemonic},{self.bytes},{self.cycles},{self.flags_affected}'
         return str
         

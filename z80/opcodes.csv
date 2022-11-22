@@ -1,148 +1,148 @@
 OP_NONE,documented,0,0,0,FLAGS_NONE
 00,documented,nop,1,4,FLAGS_NONE
-01  nn,documented,ld bc,nn,3,10,FLAGS_NONE
-02,documented,ld (bc),a,1,7,FLAGS_NONE
+01  nn,documented,"ld bc,nn",3,10,FLAGS_NONE
+02,documented,"ld (bc),a",1,7,FLAGS_NONE
 03,documented,inc bc,1,6,FLAGS_NONE
 04,documented,inc b,1,4,FLAGS_NONE
 05,documented,dec b,1,4,FLAGS_NONE
-06  n,documented,ld b,n,2,7,FLAGS_NONE
+06  n,documented,"ld b,n",2,7,FLAGS_NONE
 07,documented,rlca,1,4,FLAGS_NONE
-08,documented,ex af,af',1,4,FLAGS_NONE
-09,documented,add hl,bc,1,11,FLAGS_NONE
-0A,documented,ld a,(bc),1,7,FLAGS_NONE
+08,documented,"ex af,af'",1,4,FLAGS_NONE
+09,documented,"add hl,bc",1,11,FLAGS_NONE
+0A,documented,"ld a,(bc)",1,7,FLAGS_NONE
 0B,documented,dec bc,1,6,FLAGS_NONE
 0C,documented,inc c,1,4,FLAGS_NONE
 0D,documented,dec c,1,4,FLAGS_NONE
-0E  n,documented,ld c,n,2,7,FLAGS_NONE
+0E  n,documented,"ld c,n",2,7,FLAGS_NONE
 0F,documented,rrca,1,4,FLAGS_NONE
 10  d-$-2,documented,djnz d,2,13/8,FLAGS_NONE
-11  nn,documented,ld de,nn,3,10,FLAGS_NONE
-12,documented,ld (de),a,1,7,FLAGS_NONE
+11  nn,documented,"ld de,nn",3,10,FLAGS_NONE
+12,documented,"ld (de),a",1,7,FLAGS_NONE
 13,documented,inc de,1,6,FLAGS_NONE
 14,documented,inc d,1,4,FLAGS_NONE
 15,documented,dec d,1,4,FLAGS_NONE
-16  n,documented,ld d,n,2,7,FLAGS_NONE
+16  n,documented,"ld d,n",2,7,FLAGS_NONE
 17,documented,rla,1,4,FLAGS_NONE
 18  d-$-2,documented,jr d,2,12,FLAGS_NONE
-19,documented,add hl,de,1,11,FLAGS_NONE
-1A,documented,ld a,(de),1,7,FLAGS_NONE
+19,documented,"add hl,de",1,11,FLAGS_NONE
+1A,documented,"ld a,(de)",1,7,FLAGS_NONE
 1B,documented,dec de,1,6,FLAGS_NONE
 1C,documented,inc e,1,4,FLAGS_NONE
 1D,documented,dec e,1,4,FLAGS_NONE
-1E  n,documented,ld e,n,2,7,FLAGS_NONE
+1E  n,documented,"ld e,n",2,7,FLAGS_NONE
 1F,documented,rra,1,4,FLAGS_NONE
-20  d-$-2,documented,jr nz,d,2,12/7,FLAGS_NONE
-21  nn,documented,ld hl,nn,3,10,FLAGS_NONE
-22  nn,documented,ld (nn),hl,3,16,FLAGS_NONE
+20  d-$-2,documented,"jr nz,d",2,12/7,FLAGS_NONE
+21  nn,documented,"ld hl,nn",3,10,FLAGS_NONE
+22  nn,documented,"ld (nn),hl",3,16,FLAGS_NONE
 23,documented,inc hl,1,6,FLAGS_NONE
 24,documented,inc h,1,4,FLAGS_NONE
 25,documented,dec h,1,4,FLAGS_NONE
-26  n,documented,ld h,n,2,7,FLAGS_NONE
+26  n,documented,"ld h,n",2,7,FLAGS_NONE
 27,documented,daa,1,4,FLAGS_NONE
-28  d-$-2,documented,jr z,d,2,12/7,FLAGS_NONE
-29,documented,add hl,hl,1,11,FLAGS_NONE
-2A  nn,documented,ld hl,(nn),3,16,FLAGS_NONE
+28  d-$-2,documented,"jr z,d",2,12/7,FLAGS_NONE
+29,documented,"add hl,hl",1,11,FLAGS_NONE
+2A  nn,documented,"ld hl,(nn)",3,16,FLAGS_NONE
 2B,documented,dec hl,1,6,FLAGS_NONE
 2C,documented,inc l,1,4,FLAGS_NONE
 2D,documented,dec l,1,4,FLAGS_NONE
-2E  n,documented,ld l,n,2,7,FLAGS_NONE
+2E  n,documented,"ld l,n",2,7,FLAGS_NONE
 2F,documented,cpl,1,4,FLAGS_NONE
-30  d-$-2,documented,jr nc,d,2,12/7,FLAGS_NONE
-31  nn,documented,ld sp,nn,3,10,FLAGS_NONE
-32  nn,documented,ld (nn),a,3,13,FLAGS_NONE
+30  d-$-2,documented,"jr nc,d",2,12/7,FLAGS_NONE
+31  nn,documented,"ld sp,nn",3,10,FLAGS_NONE
+32  nn,documented,"ld (nn),a",3,13,FLAGS_NONE
 33,documented,inc sp,1,6,FLAGS_NONE
 34,documented,inc (hl),1,11,FLAGS_NONE
 35,documented,dec (hl),1,11,FLAGS_NONE
-36  n,documented,ld (hl),n,2,10,FLAGS_NONE
+36  n,documented,"ld (hl),n",2,10,FLAGS_NONE
 37,documented,scf,1,4,FLAGS_NONE
-38  d-$-2,documented,jr c,d,2,12/7,FLAGS_NONE
-39,documented,add hl,sp,1,11,FLAGS_NONE
-3A  nn,documented,ld a,(nn),3,13,FLAGS_NONE
+38  d-$-2,documented,"jr c,d",2,12/7,FLAGS_NONE
+39,documented,"add hl,sp",1,11,FLAGS_NONE
+3A  nn,documented,"ld a,(nn)",3,13,FLAGS_NONE
 3B,documented,dec sp,1,6,FLAGS_NONE
 3C,documented,inc a,1,4,FLAGS_NONE
 3D,documented,dec a,1,4,FLAGS_NONE
-3E  n,documented,ld a,n,2,7,FLAGS_NONE
+3E  n,documented,"ld a,n",2,7,FLAGS_NONE
 3F,documented,ccf,1,4,FLAGS_NONE
-40,documented,ld b,b,1,4,FLAGS_NONE
-41,documented,ld b,c,1,4,FLAGS_NONE
-42,documented,ld b,d,1,4,FLAGS_NONE
-43,documented,ld b,e,1,4,FLAGS_NONE
-44,documented,ld b,h,1,4,FLAGS_NONE
-45,documented,ld b,l,1,4,FLAGS_NONE
-46,documented,ld b,(hl),1,7,FLAGS_NONE
-47,documented,ld b,a,1,4,FLAGS_NONE
-48,documented,ld c,b,1,4,FLAGS_NONE
-49,documented,ld c,c,1,4,FLAGS_NONE
-4A,documented,ld c,d,1,4,FLAGS_NONE
-4B,documented,ld c,e,1,4,FLAGS_NONE
-4C,documented,ld c,h,1,4,FLAGS_NONE
-4D,documented,ld c,l,1,4,FLAGS_NONE
-4E,documented,ld c,(hl),1,7,FLAGS_NONE
-4F,documented,ld c,a,1,4,FLAGS_NONE
-50,documented,ld d,b,1,4,FLAGS_NONE
-51,documented,ld d,c,1,4,FLAGS_NONE
-52,documented,ld d,d,1,4,FLAGS_NONE
-53,documented,ld d,e,1,4,FLAGS_NONE
-54,documented,ld d,h,1,4,FLAGS_NONE
-55,documented,ld d,l,1,4,FLAGS_NONE
-56,documented,ld d,(hl),1,7,FLAGS_NONE
-57,documented,ld d,a,1,4,FLAGS_NONE
-58,documented,ld e,b,1,4,FLAGS_NONE
-59,documented,ld e,c,1,4,FLAGS_NONE
-5A,documented,ld e,d,1,4,FLAGS_NONE
-5B,documented,ld e,e,1,4,FLAGS_NONE
-5C,documented,ld e,h,1,4,FLAGS_NONE
-5D,documented,ld e,l,1,4,FLAGS_NONE
-5E,documented,ld e,(hl),1,7,FLAGS_NONE
-5F,documented,ld e,a,1,4,FLAGS_NONE
-60,documented,ld h,b,1,4,FLAGS_NONE
-61,documented,ld h,c,1,4,FLAGS_NONE
-62,documented,ld h,d,1,4,FLAGS_NONE
-63,documented,ld h,e,1,4,FLAGS_NONE
-64,documented,ld h,h,1,4,FLAGS_NONE
-65,documented,ld h,l,1,4,FLAGS_NONE
-66,documented,ld h,(hl),1,7,FLAGS_NONE
-67,documented,ld h,a,1,4,FLAGS_NONE
-68,documented,ld l,b,1,4,FLAGS_NONE
-69,documented,ld l,c,1,4,FLAGS_NONE
-6A,documented,ld l,d,1,4,FLAGS_NONE
-6B,documented,ld l,e,1,4,FLAGS_NONE
-6C,documented,ld l,h,1,4,FLAGS_NONE
-6D,documented,ld l,l,1,4,FLAGS_NONE
-6E,documented,ld l,(hl),1,7,FLAGS_NONE
-6F,documented,ld l,a,1,4,FLAGS_NONE
-70,documented,ld (hl),b,1,7,FLAGS_NONE
-71,documented,ld (hl),c,1,7,FLAGS_NONE
-72,documented,ld (hl),d,1,7,FLAGS_NONE
-73,documented,ld (hl),e,1,7,FLAGS_NONE
-74,documented,ld (hl),h,1,7,FLAGS_NONE
-75,documented,ld (hl),l,1,7,FLAGS_NONE
+40,documented,"ld b,b",1,4,FLAGS_NONE
+41,documented,"ld b,c",1,4,FLAGS_NONE
+42,documented,"ld b,d",1,4,FLAGS_NONE
+43,documented,"ld b,e",1,4,FLAGS_NONE
+44,documented,"ld b,h",1,4,FLAGS_NONE
+45,documented,"ld b,l",1,4,FLAGS_NONE
+46,documented,"ld b,(hl)",1,7,FLAGS_NONE
+47,documented,"ld b,a",1,4,FLAGS_NONE
+48,documented,"ld c,b",1,4,FLAGS_NONE
+49,documented,"ld c,c",1,4,FLAGS_NONE
+4A,documented,"ld c,d",1,4,FLAGS_NONE
+4B,documented,"ld c,e",1,4,FLAGS_NONE
+4C,documented,"ld c,h",1,4,FLAGS_NONE
+4D,documented,"ld c,l",1,4,FLAGS_NONE
+4E,documented,"ld c,(hl)",1,7,FLAGS_NONE
+4F,documented,"ld c,a",1,4,FLAGS_NONE
+50,documented,"ld d,b",1,4,FLAGS_NONE
+51,documented,"ld d,c",1,4,FLAGS_NONE
+52,documented,"ld d,d",1,4,FLAGS_NONE
+53,documented,"ld d,e",1,4,FLAGS_NONE
+54,documented,"ld d,h",1,4,FLAGS_NONE
+55,documented,"ld d,l",1,4,FLAGS_NONE
+56,documented,"ld d,(hl)",1,7,FLAGS_NONE
+57,documented,"ld d,a",1,4,FLAGS_NONE
+58,documented,"ld e,b",1,4,FLAGS_NONE
+59,documented,"ld e,c",1,4,FLAGS_NONE
+5A,documented,"ld e,d",1,4,FLAGS_NONE
+5B,documented,"ld e,e",1,4,FLAGS_NONE
+5C,documented,"ld e,h",1,4,FLAGS_NONE
+5D,documented,"ld e,l",1,4,FLAGS_NONE
+5E,documented,"ld e,(hl)",1,7,FLAGS_NONE
+5F,documented,"ld e,a",1,4,FLAGS_NONE
+60,documented,"ld h,b",1,4,FLAGS_NONE
+61,documented,"ld h,c",1,4,FLAGS_NONE
+62,documented,"ld h,d",1,4,FLAGS_NONE
+63,documented,"ld h,e",1,4,FLAGS_NONE
+64,documented,"ld h,h",1,4,FLAGS_NONE
+65,documented,"ld h,l",1,4,FLAGS_NONE
+66,documented,"ld h,(hl)",1,7,FLAGS_NONE
+67,documented,"ld h,a",1,4,FLAGS_NONE
+68,documented,"ld l,b",1,4,FLAGS_NONE
+69,documented,"ld l,c",1,4,FLAGS_NONE
+6A,documented,"ld l,d",1,4,FLAGS_NONE
+6B,documented,"ld l,e",1,4,FLAGS_NONE
+6C,documented,"ld l,h",1,4,FLAGS_NONE
+6D,documented,"ld l,l",1,4,FLAGS_NONE
+6E,documented,"ld l,(hl)",1,7,FLAGS_NONE
+6F,documented,"ld l,a",1,4,FLAGS_NONE
+70,documented,"ld (hl),b",1,7,FLAGS_NONE
+71,documented,"ld (hl),c",1,7,FLAGS_NONE
+72,documented,"ld (hl),d",1,7,FLAGS_NONE
+73,documented,"ld (hl),e",1,7,FLAGS_NONE
+74,documented,"ld (hl),h",1,7,FLAGS_NONE
+75,documented,"ld (hl),l",1,7,FLAGS_NONE
 76,documented,halt,1,4,FLAGS_NONE
-77,documented,ld (hl),a,1,7,FLAGS_NONE
-78,documented,ld a,b,1,4,FLAGS_NONE
-79,documented,ld a,c,1,4,FLAGS_NONE
-7A,documented,ld a,d,1,4,FLAGS_NONE
-7B,documented,ld a,e,1,4,FLAGS_NONE
-7C,documented,ld a,h,1,4,FLAGS_NONE
-7D,documented,ld a,l,1,4,FLAGS_NONE
-7E,documented,ld a,(hl),1,7,FLAGS_NONE
-7F,documented,ld a,a,1,4,FLAGS_NONE
-80,documented,add a,b,1,4,FLAGS_NONE
-81,documented,add a,c,1,4,FLAGS_NONE
-82,documented,add a,d,1,4,FLAGS_NONE
-83,documented,add a,e,1,4,FLAGS_NONE
-84,documented,add a,h,1,4,FLAGS_NONE
-85,documented,add a,l,1,4,FLAGS_NONE
-86,documented,add a,(hl),1,7,FLAGS_NONE
-87,documented,add a,a,1,4,FLAGS_NONE
-88,documented,adc a,b,1,4,FLAGS_NONE
-89,documented,adc a,c,1,4,FLAGS_NONE
-8A,documented,adc a,d,1,4,FLAGS_NONE
-8B,documented,adc a,e,1,4,FLAGS_NONE
-8C,documented,adc a,h,1,4,FLAGS_NONE
-8D,documented,adc a,l,1,4,FLAGS_NONE
-8E,documented,adc a,(hl),1,7,FLAGS_NONE
-8F,documented,adc a,a,1,4,FLAGS_NONE
+77,documented,"ld (hl),a",1,7,FLAGS_NONE
+78,documented,"ld a,b",1,4,FLAGS_NONE
+79,documented,"ld a,c",1,4,FLAGS_NONE
+7A,documented,"ld a,d",1,4,FLAGS_NONE
+7B,documented,"ld a,e",1,4,FLAGS_NONE
+7C,documented,"ld a,h",1,4,FLAGS_NONE
+7D,documented,"ld a,l",1,4,FLAGS_NONE
+7E,documented,"ld a,(hl)",1,7,FLAGS_NONE
+7F,documented,"ld a,a",1,4,FLAGS_NONE
+80,documented,"add a,b",1,4,FLAGS_NONE
+81,documented,"add a,c",1,4,FLAGS_NONE
+82,documented,"add a,d",1,4,FLAGS_NONE
+83,documented,"add a,e",1,4,FLAGS_NONE
+84,documented,"add a,h",1,4,FLAGS_NONE
+85,documented,"add a,l",1,4,FLAGS_NONE
+86,documented,"add a,(hl)",1,7,FLAGS_NONE
+87,documented,"add a,a",1,4,FLAGS_NONE
+88,documented,"adc a,b",1,4,FLAGS_NONE
+89,documented,"adc a,c",1,4,FLAGS_NONE
+8A,documented,"adc a,d",1,4,FLAGS_NONE
+8B,documented,"adc a,e",1,4,FLAGS_NONE
+8C,documented,"adc a,h",1,4,FLAGS_NONE
+8D,documented,"adc a,l",1,4,FLAGS_NONE
+8E,documented,"adc a,(hl)",1,7,FLAGS_NONE
+8F,documented,"adc a,a",1,4,FLAGS_NONE
 90,documented,sub b,1,4,FLAGS_NONE
 91,documented,sub c,1,4,FLAGS_NONE
 92,documented,sub d,1,4,FLAGS_NONE
@@ -151,14 +151,14 @@ OP_NONE,documented,0,0,0,FLAGS_NONE
 95,documented,sub l,1,4,FLAGS_NONE
 96,documented,sub (hl),1,7,FLAGS_NONE
 97,documented,sub a,1,4,FLAGS_NONE
-98,documented,sbc a,b,1,4,FLAGS_NONE
-99,documented,sbc a,c,1,4,FLAGS_NONE
-9A,documented,sbc a,d,1,4,FLAGS_NONE
-9B,documented,sbc a,e,1,4,FLAGS_NONE
-9C,documented,sbc a,h,1,4,FLAGS_NONE
-9D,documented,sbc a,l,1,4,FLAGS_NONE
-9E,documented,sbc a,(hl),1,7,FLAGS_NONE
-9F,documented,sbc a,a,1,4,FLAGS_NONE
+98,documented,"sbc a,b",1,4,FLAGS_NONE
+99,documented,"sbc a,c",1,4,FLAGS_NONE
+9A,documented,"sbc a,d",1,4,FLAGS_NONE
+9B,documented,"sbc a,e",1,4,FLAGS_NONE
+9C,documented,"sbc a,h",1,4,FLAGS_NONE
+9D,documented,"sbc a,l",1,4,FLAGS_NONE
+9E,documented,"sbc a,(hl)",1,7,FLAGS_NONE
+9F,documented,"sbc a,a",1,4,FLAGS_NONE
 A0,documented,and b,1,4,FLAGS_NONE
 A1,documented,and c,1,4,FLAGS_NONE
 A2,documented,and d,1,4,FLAGS_NONE
@@ -193,65 +193,65 @@ BE,documented,cp (hl),1,7,FLAGS_NONE
 BF,documented,cp a,1,4,FLAGS_NONE
 C0,documented,ret nz,1,11/5,FLAGS_NONE
 C1,documented,pop bc,1,10,FLAGS_NONE
-C2  nn,documented,jp nz,nn,3,10,FLAGS_NONE
+C2  nn,documented,"jp nz,nn",3,10,FLAGS_NONE
 C3  nn,documented,jp nn,3,10,FLAGS_NONE
-C4  nn,documented,call nz,nn,3,17/10,FLAGS_NONE
+C4  nn,documented,"call nz,nn",3,17/10,FLAGS_NONE
 C5,documented,push bc,1,11,FLAGS_NONE
-C6  n,documented,add a,n,2,7,FLAGS_NONE
+C6  n,documented,"add a,n",2,7,FLAGS_NONE
 C7,documented,rst 00h,1,11,FLAGS_NONE
 C8,documented,ret z,1,11/5,FLAGS_NONE
 C9,documented,ret,1,10,FLAGS_NONE
-CA  nn,documented,jp z,nn,3,10,FLAGS_NONE
+CA  nn,documented,"jp z,nn",3,10,FLAGS_NONE
 OP_NONE,documented,Bit,0,0,FLAGS_NONE
-CC  nn,documented,call z,nn,3,17/10,FLAGS_NONE
+CC  nn,documented,"call z,nn",3,17/10,FLAGS_NONE
 CD  nn,documented,call nn,3,17,FLAGS_NONE
-CE  n,documented,adc a,n,2,7,FLAGS_NONE
+CE  n,documented,"adc a,n",2,7,FLAGS_NONE
 CF,documented,rst 08h,1,11,FLAGS_NONE
 D0,documented,ret nc,1,11/5,FLAGS_NONE
 D1,documented,pop de,1,10,FLAGS_NONE
-D2  nn,documented,jp nc,nn,3,10,FLAGS_NONE
-D3  n,documented,out (n),a,2,11,FLAGS_NONE
-D4  nn,documented,call nc,nn,3,17/10,FLAGS_NONE
+D2  nn,documented,"jp nc,nn",3,10,FLAGS_NONE
+D3  n,documented,"out (n),a",2,11,FLAGS_NONE
+D4  nn,documented,"call nc,nn",3,17/10,FLAGS_NONE
 D5,documented,push de,1,11,FLAGS_NONE
 D6  n,documented,sub n,2,7,FLAGS_NONE
 D7,documented,rst 10h,1,11,FLAGS_NONE
 D8,documented,ret c,1,11/5,FLAGS_NONE
 D9,documented,exx,1,4,FLAGS_NONE
-DA  nn,documented,jp c,nn,3,10,FLAGS_NONE
-DB  n,documented,in a,(n),2,11,FLAGS_NONE
-DC  nn,documented,call c,nn,3,17/10,FLAGS_NONE
+DA  nn,documented,"jp c,nn",3,10,FLAGS_NONE
+DB  n,documented,"in a,(n)",2,11,FLAGS_NONE
+DC  nn,documented,"call c,nn",3,17/10,FLAGS_NONE
 OP_NONE,documented,IX,0,0,FLAGS_NONE
-DE  n,documented,sbc a,n,2,7,FLAGS_NONE
+DE  n,documented,"sbc a,n",2,7,FLAGS_NONE
 DF,documented,rst 18h,1,11,FLAGS_NONE
 E0,documented,ret po,1,11/5,FLAGS_NONE
 E1,documented,pop hl,1,10,FLAGS_NONE
-E2  nn,documented,jp po,nn,3,10,FLAGS_NONE
-E3,documented,ex (sp),hl,1,19,FLAGS_NONE
-E4  nn,documented,call po,nn,3,17/10,FLAGS_NONE
+E2  nn,documented,"jp po,nn",3,10,FLAGS_NONE
+E3,documented,"ex (sp),hl",1,19,FLAGS_NONE
+E4  nn,documented,"call po,nn",3,17/10,FLAGS_NONE
 E5,documented,push hl,1,11,FLAGS_NONE
 E6  n,documented,and n,2,7,FLAGS_NONE
 E7,documented,rst 20h,1,11,FLAGS_NONE
 E8,documented,ret pe,1,11/5,FLAGS_NONE
 E9,documented,jp (hl),1,4,FLAGS_NONE
-EA  nn,documented,jp pe,nn,3,10,FLAGS_NONE
-EB,documented,ex de,hl,1,4,FLAGS_NONE
-EC  nn,documented,call pe,nn,3,17/10,FLAGS_NONE
+EA  nn,documented,"jp pe,nn",3,10,FLAGS_NONE
+EB,documented,"ex de,hl",1,4,FLAGS_NONE
+EC  nn,documented,"call pe,nn",3,17/10,FLAGS_NONE
 OP_NONE,documented,Misc.,0,0,FLAGS_NONE
 EE  n,documented,xor n,2,7,FLAGS_NONE
 EF,documented,rst 28h,1,11,FLAGS_NONE
 F0,documented,ret p,1,11/5,FLAGS_NONE
 F1,documented,pop af,1,10,FLAGS_NONE
-F2  nn,documented,jp p,nn,3,10,FLAGS_NONE
+F2  nn,documented,"jp p,nn",3,10,FLAGS_NONE
 F3,documented,di,1,4,FLAGS_NONE
-F4  nn,documented,call p,nn,3,17/10,FLAGS_NONE
+F4  nn,documented,"call p,nn",3,17/10,FLAGS_NONE
 F5,documented,push af,1,11,FLAGS_NONE
 F6  n,documented,or n,2,7,FLAGS_NONE
 F7,documented,rst 30h,1,11,FLAGS_NONE
 F8,documented,ret m,1,11/5,FLAGS_NONE
-F9,documented,ld sp,hl,1,6,FLAGS_NONE
-FA  nn,documented,jp m,nn,3,10,FLAGS_NONE
+F9,documented,"ld sp,hl",1,6,FLAGS_NONE
+FA  nn,documented,"jp m,nn",3,10,FLAGS_NONE
 FB,documented,ei,1,4,FLAGS_NONE
-FC  nn,documented,call m,nn,3,17/10,FLAGS_NONE
+FC  nn,documented,"call m,nn",3,17/10,FLAGS_NONE
 OP_NONE,documented,IY,0,0,FLAGS_NONE
 FE  n,documented,cp n,2,7,FLAGS_NONE
 FF,documented,rst 38h,1,11,FLAGS_NONE
@@ -320,198 +320,198 @@ CB  3C,documented,srl h,2,8,FLAGS_NONE
 CB  3D,documented,srl l,2,8,FLAGS_NONE
 CB  3E,documented,srl (hl),2,15,FLAGS_NONE
 CB  3F,documented,srl a,2,8,FLAGS_NONE
-CB  40,documented,bit 0,b,2,8,FLAGS_NONE
-CB  41,documented,bit 0,c,2,8,FLAGS_NONE
-CB  42,documented,bit 0,d,2,8,FLAGS_NONE
-CB  43,documented,bit 0,e,2,8,FLAGS_NONE
-CB  44,documented,bit 0,h,2,8,FLAGS_NONE
-CB  45,documented,bit 0,l,2,8,FLAGS_NONE
-CB  46,documented,bit 0,(hl),2,12,FLAGS_NONE
-CB  47,documented,bit 0,a,2,8,FLAGS_NONE
-CB  48,documented,bit 1,b,2,8,FLAGS_NONE
-CB  49,documented,bit 1,c,2,8,FLAGS_NONE
-CB  4A,documented,bit 1,d,2,8,FLAGS_NONE
-CB  4B,documented,bit 1,e,2,8,FLAGS_NONE
-CB  4C,documented,bit 1,h,2,8,FLAGS_NONE
-CB  4D,documented,bit 1,l,2,8,FLAGS_NONE
-CB  4E,documented,bit 1,(hl),2,12,FLAGS_NONE
-CB  4F,documented,bit 1,a,2,8,FLAGS_NONE
-CB  50,documented,bit 2,b,2,8,FLAGS_NONE
-CB  51,documented,bit 2,c,2,8,FLAGS_NONE
-CB  52,documented,bit 2,d,2,8,FLAGS_NONE
-CB  53,documented,bit 2,e,2,8,FLAGS_NONE
-CB  54,documented,bit 2,h,2,8,FLAGS_NONE
-CB  55,documented,bit 2,l,2,8,FLAGS_NONE
-CB  56,documented,bit 2,(hl),2,12,FLAGS_NONE
-CB  57,documented,bit 2,a,2,8,FLAGS_NONE
-CB  58,documented,bit 3,b,2,8,FLAGS_NONE
-CB  59,documented,bit 3,c,2,8,FLAGS_NONE
-CB  5A,documented,bit 3,d,2,8,FLAGS_NONE
-CB  5B,documented,bit 3,e,2,8,FLAGS_NONE
-CB  5C,documented,bit 3,h,2,8,FLAGS_NONE
-CB  5D,documented,bit 3,l,2,8,FLAGS_NONE
-CB  5E,documented,bit 3,(hl),2,12,FLAGS_NONE
-CB  5F,documented,bit 3,a,2,8,FLAGS_NONE
-CB  60,documented,bit 4,b,2,8,FLAGS_NONE
-CB  61,documented,bit 4,c,2,8,FLAGS_NONE
-CB  62,documented,bit 4,d,2,8,FLAGS_NONE
-CB  63,documented,bit 4,e,2,8,FLAGS_NONE
-CB  64,documented,bit 4,h,2,8,FLAGS_NONE
-CB  65,documented,bit 4,l,2,8,FLAGS_NONE
-CB  66,documented,bit 4,(hl),2,12,FLAGS_NONE
-CB  67,documented,bit 4,a,2,8,FLAGS_NONE
-CB  68,documented,bit 5,b,2,8,FLAGS_NONE
-CB  69,documented,bit 5,c,2,8,FLAGS_NONE
-CB  6A,documented,bit 5,d,2,8,FLAGS_NONE
-CB  6B,documented,bit 5,e,2,8,FLAGS_NONE
-CB  6C,documented,bit 5,h,2,8,FLAGS_NONE
-CB  6D,documented,bit 5,l,2,8,FLAGS_NONE
-CB  6E,documented,bit 5,(hl),2,12,FLAGS_NONE
-CB  6F,documented,bit 5,a,2,8,FLAGS_NONE
-CB  70,documented,bit 6,b,2,8,FLAGS_NONE
-CB  71,documented,bit 6,c,2,8,FLAGS_NONE
-CB  72,documented,bit 6,d,2,8,FLAGS_NONE
-CB  73,documented,bit 6,e,2,8,FLAGS_NONE
-CB  74,documented,bit 6,h,2,8,FLAGS_NONE
-CB  75,documented,bit 6,l,2,8,FLAGS_NONE
-CB  76,documented,bit 6,(hl),2,12,FLAGS_NONE
-CB  77,documented,bit 6,a,2,8,FLAGS_NONE
-CB  78,documented,bit 7,b,2,8,FLAGS_NONE
-CB  79,documented,bit 7,c,2,8,FLAGS_NONE
-CB  7A,documented,bit 7,d,2,8,FLAGS_NONE
-CB  7B,documented,bit 7,e,2,8,FLAGS_NONE
-CB  7C,documented,bit 7,h,2,8,FLAGS_NONE
-CB  7D,documented,bit 7,l,2,8,FLAGS_NONE
-CB  7E,documented,bit 7,(hl),2,12,FLAGS_NONE
-CB  7F,documented,bit 7,a,2,8,FLAGS_NONE
-CB  80,documented,res 0,b,2,8,FLAGS_NONE
-CB  81,documented,res 0,c,2,8,FLAGS_NONE
-CB  82,documented,res 0,d,2,8,FLAGS_NONE
-CB  83,documented,res 0,e,2,8,FLAGS_NONE
-CB  84,documented,res 0,h,2,8,FLAGS_NONE
-CB  85,documented,res 0,l,2,8,FLAGS_NONE
-CB  86,documented,res 0,(hl),2,15,FLAGS_NONE
-CB  87,documented,res 0,a,2,8,FLAGS_NONE
-CB  88,documented,res 1,b,2,8,FLAGS_NONE
-CB  89,documented,res 1,c,2,8,FLAGS_NONE
-CB  8A,documented,res 1,d,2,8,FLAGS_NONE
-CB  8B,documented,res 1,e,2,8,FLAGS_NONE
-CB  8C,documented,res 1,h,2,8,FLAGS_NONE
-CB  8D,documented,res 1,l,2,8,FLAGS_NONE
-CB  8E,documented,res 1,(hl),2,15,FLAGS_NONE
-CB  8F,documented,res 1,a,2,8,FLAGS_NONE
-CB  90,documented,res 2,b,2,8,FLAGS_NONE
-CB  91,documented,res 2,c,2,8,FLAGS_NONE
-CB  92,documented,res 2,d,2,8,FLAGS_NONE
-CB  93,documented,res 2,e,2,8,FLAGS_NONE
-CB  94,documented,res 2,h,2,8,FLAGS_NONE
-CB  95,documented,res 2,l,2,8,FLAGS_NONE
-CB  96,documented,res 2,(hl),2,15,FLAGS_NONE
-CB  97,documented,res 2,a,2,8,FLAGS_NONE
-CB  98,documented,res 3,b,2,8,FLAGS_NONE
-CB  99,documented,res 3,c,2,8,FLAGS_NONE
-CB  9A,documented,res 3,d,2,8,FLAGS_NONE
-CB  9B,documented,res 3,e,2,8,FLAGS_NONE
-CB  9C,documented,res 3,h,2,8,FLAGS_NONE
-CB  9D,documented,res 3,l,2,8,FLAGS_NONE
-CB  9E,documented,res 3,(hl),2,15,FLAGS_NONE
-CB  9F,documented,res 3,a,2,8,FLAGS_NONE
-CB  A0,documented,res 4,b,2,8,FLAGS_NONE
-CB  A1,documented,res 4,c,2,8,FLAGS_NONE
-CB  A2,documented,res 4,d,2,8,FLAGS_NONE
-CB  A3,documented,res 4,e,2,8,FLAGS_NONE
-CB  A4,documented,res 4,h,2,8,FLAGS_NONE
-CB  A5,documented,res 4,l,2,8,FLAGS_NONE
-CB  A6,documented,res 4,(hl),2,15,FLAGS_NONE
-CB  A7,documented,res 4,a,2,8,FLAGS_NONE
-CB  A8,documented,res 5,b,2,8,FLAGS_NONE
-CB  A9,documented,res 5,c,2,8,FLAGS_NONE
-CB  AA,documented,res 5,d,2,8,FLAGS_NONE
-CB  AB,documented,res 5,e,2,8,FLAGS_NONE
-CB  AC,documented,res 5,h,2,8,FLAGS_NONE
-CB  AD,documented,res 5,l,2,8,FLAGS_NONE
-CB  AE,documented,res 5,(hl),2,15,FLAGS_NONE
-CB  AF,documented,res 5,a,2,8,FLAGS_NONE
-CB  B0,documented,res 6,b,2,8,FLAGS_NONE
-CB  B1,documented,res 6,c,2,8,FLAGS_NONE
-CB  B2,documented,res 6,d,2,8,FLAGS_NONE
-CB  B3,documented,res 6,e,2,8,FLAGS_NONE
-CB  B4,documented,res 6,h,2,8,FLAGS_NONE
-CB  B5,documented,res 6,l,2,8,FLAGS_NONE
-CB  B6,documented,res 6,(hl),2,15,FLAGS_NONE
-CB  B7,documented,res 6,a,2,8,FLAGS_NONE
-CB  B8,documented,res 7,b,2,8,FLAGS_NONE
-CB  B9,documented,res 7,c,2,8,FLAGS_NONE
-CB  BA,documented,res 7,d,2,8,FLAGS_NONE
-CB  BB,documented,res 7,e,2,8,FLAGS_NONE
-CB  BC,documented,res 7,h,2,8,FLAGS_NONE
-CB  BD,documented,res 7,l,2,8,FLAGS_NONE
-CB  BE,documented,res 7,(hl),2,15,FLAGS_NONE
-CB  BF,documented,res 7,a,2,8,FLAGS_NONE
-CB  C0,documented,set 0,b,2,8,FLAGS_NONE
-CB  C1,documented,set 0,c,2,8,FLAGS_NONE
-CB  C2,documented,set 0,d,2,8,FLAGS_NONE
-CB  C3,documented,set 0,e,2,8,FLAGS_NONE
-CB  C4,documented,set 0,h,2,8,FLAGS_NONE
-CB  C5,documented,set 0,l,2,8,FLAGS_NONE
-CB  C6,documented,set 0,(hl),2,15,FLAGS_NONE
-CB  C7,documented,set 0,a,2,8,FLAGS_NONE
-CB  C8,documented,set 1,b,2,8,FLAGS_NONE
-CB  C9,documented,set 1,c,2,8,FLAGS_NONE
-CB  CA,documented,set 1,d,2,8,FLAGS_NONE
-CB  CB,documented,set 1,e,2,8,FLAGS_NONE
-CB  CC,documented,set 1,h,2,8,FLAGS_NONE
-CB  CD,documented,set 1,l,2,8,FLAGS_NONE
-CB  CE,documented,set 1,(hl),2,15,FLAGS_NONE
-CB  CF,documented,set 1,a,2,8,FLAGS_NONE
-CB  D0,documented,set 2,b,2,8,FLAGS_NONE
-CB  D1,documented,set 2,c,2,8,FLAGS_NONE
-CB  D2,documented,set 2,d,2,8,FLAGS_NONE
-CB  D3,documented,set 2,e,2,8,FLAGS_NONE
-CB  D4,documented,set 2,h,2,8,FLAGS_NONE
-CB  D5,documented,set 2,l,2,8,FLAGS_NONE
-CB  D6,documented,set 2,(hl),2,15,FLAGS_NONE
-CB  D7,documented,set 2,a,2,8,FLAGS_NONE
-CB  D8,documented,set 3,b,2,8,FLAGS_NONE
-CB  D9,documented,set 3,c,2,8,FLAGS_NONE
-CB  DA,documented,set 3,d,2,8,FLAGS_NONE
-CB  DB,documented,set 3,e,2,8,FLAGS_NONE
-CB  DC,documented,set 3,h,2,8,FLAGS_NONE
-CB  DD,documented,set 3,l,2,8,FLAGS_NONE
-CB  DE,documented,set 3,(hl),2,15,FLAGS_NONE
-CB  DF,documented,set 3,a,2,8,FLAGS_NONE
-CB  E0,documented,set 4,b,2,8,FLAGS_NONE
-CB  E1,documented,set 4,c,2,8,FLAGS_NONE
-CB  E2,documented,set 4,d,2,8,FLAGS_NONE
-CB  E3,documented,set 4,e,2,8,FLAGS_NONE
-CB  E4,documented,set 4,h,2,8,FLAGS_NONE
-CB  E5,documented,set 4,l,2,8,FLAGS_NONE
-CB  E6,documented,set 4,(hl),2,15,FLAGS_NONE
-CB  E7,documented,set 4,a,2,8,FLAGS_NONE
-CB  E8,documented,set 5,b,2,8,FLAGS_NONE
-CB  E9,documented,set 5,c,2,8,FLAGS_NONE
-CB  EA,documented,set 5,d,2,8,FLAGS_NONE
-CB  EB,documented,set 5,e,2,8,FLAGS_NONE
-CB  EC,documented,set 5,h,2,8,FLAGS_NONE
-CB  ED,documented,set 5,l,2,8,FLAGS_NONE
-CB  EE,documented,set 5,(hl),2,15,FLAGS_NONE
-CB  EF,documented,set 5,a,2,8,FLAGS_NONE
-CB  F0,documented,set 6,b,2,8,FLAGS_NONE
-CB  F1,documented,set 6,c,2,8,FLAGS_NONE
-CB  F2,documented,set 6,d,2,8,FLAGS_NONE
-CB  F3,documented,set 6,e,2,8,FLAGS_NONE
-CB  F4,documented,set 6,h,2,8,FLAGS_NONE
-CB  F5,documented,set 6,l,2,8,FLAGS_NONE
-CB  F6,documented,set 6,(hl),2,15,FLAGS_NONE
-CB  F7,documented,set 6,a,2,8,FLAGS_NONE
-CB  F8,documented,set 7,b,2,8,FLAGS_NONE
-CB  F9,documented,set 7,c,2,8,FLAGS_NONE
-CB  FA,documented,set 7,d,2,8,FLAGS_NONE
-CB  FB,documented,set 7,e,2,8,FLAGS_NONE
-CB  FC,documented,set 7,h,2,8,FLAGS_NONE
-CB  FD,documented,set 7,l,2,8,FLAGS_NONE
-CB  FE,documented,set 7,(hl),2,15,FLAGS_NONE
-CB  FF,documented,set 7,a,2,8,FLAGS_NONE
+CB  40,documented,"bit 0,b",2,8,FLAGS_NONE
+CB  41,documented,"bit 0,c",2,8,FLAGS_NONE
+CB  42,documented,"bit 0,d",2,8,FLAGS_NONE
+CB  43,documented,"bit 0,e",2,8,FLAGS_NONE
+CB  44,documented,"bit 0,h",2,8,FLAGS_NONE
+CB  45,documented,"bit 0,l",2,8,FLAGS_NONE
+CB  46,documented,"bit 0,(hl)",2,12,FLAGS_NONE
+CB  47,documented,"bit 0,a",2,8,FLAGS_NONE
+CB  48,documented,"bit 1,b",2,8,FLAGS_NONE
+CB  49,documented,"bit 1,c",2,8,FLAGS_NONE
+CB  4A,documented,"bit 1,d",2,8,FLAGS_NONE
+CB  4B,documented,"bit 1,e",2,8,FLAGS_NONE
+CB  4C,documented,"bit 1,h",2,8,FLAGS_NONE
+CB  4D,documented,"bit 1,l",2,8,FLAGS_NONE
+CB  4E,documented,"bit 1,(hl)",2,12,FLAGS_NONE
+CB  4F,documented,"bit 1,a",2,8,FLAGS_NONE
+CB  50,documented,"bit 2,b",2,8,FLAGS_NONE
+CB  51,documented,"bit 2,c",2,8,FLAGS_NONE
+CB  52,documented,"bit 2,d",2,8,FLAGS_NONE
+CB  53,documented,"bit 2,e",2,8,FLAGS_NONE
+CB  54,documented,"bit 2,h",2,8,FLAGS_NONE
+CB  55,documented,"bit 2,l",2,8,FLAGS_NONE
+CB  56,documented,"bit 2,(hl)",2,12,FLAGS_NONE
+CB  57,documented,"bit 2,a",2,8,FLAGS_NONE
+CB  58,documented,"bit 3,b",2,8,FLAGS_NONE
+CB  59,documented,"bit 3,c",2,8,FLAGS_NONE
+CB  5A,documented,"bit 3,d",2,8,FLAGS_NONE
+CB  5B,documented,"bit 3,e",2,8,FLAGS_NONE
+CB  5C,documented,"bit 3,h",2,8,FLAGS_NONE
+CB  5D,documented,"bit 3,l",2,8,FLAGS_NONE
+CB  5E,documented,"bit 3,(hl)",2,12,FLAGS_NONE
+CB  5F,documented,"bit 3,a",2,8,FLAGS_NONE
+CB  60,documented,"bit 4,b",2,8,FLAGS_NONE
+CB  61,documented,"bit 4,c",2,8,FLAGS_NONE
+CB  62,documented,"bit 4,d",2,8,FLAGS_NONE
+CB  63,documented,"bit 4,e",2,8,FLAGS_NONE
+CB  64,documented,"bit 4,h",2,8,FLAGS_NONE
+CB  65,documented,"bit 4,l",2,8,FLAGS_NONE
+CB  66,documented,"bit 4,(hl)",2,12,FLAGS_NONE
+CB  67,documented,"bit 4,a",2,8,FLAGS_NONE
+CB  68,documented,"bit 5,b",2,8,FLAGS_NONE
+CB  69,documented,"bit 5,c",2,8,FLAGS_NONE
+CB  6A,documented,"bit 5,d",2,8,FLAGS_NONE
+CB  6B,documented,"bit 5,e",2,8,FLAGS_NONE
+CB  6C,documented,"bit 5,h",2,8,FLAGS_NONE
+CB  6D,documented,"bit 5,l",2,8,FLAGS_NONE
+CB  6E,documented,"bit 5,(hl)",2,12,FLAGS_NONE
+CB  6F,documented,"bit 5,a",2,8,FLAGS_NONE
+CB  70,documented,"bit 6,b",2,8,FLAGS_NONE
+CB  71,documented,"bit 6,c",2,8,FLAGS_NONE
+CB  72,documented,"bit 6,d",2,8,FLAGS_NONE
+CB  73,documented,"bit 6,e",2,8,FLAGS_NONE
+CB  74,documented,"bit 6,h",2,8,FLAGS_NONE
+CB  75,documented,"bit 6,l",2,8,FLAGS_NONE
+CB  76,documented,"bit 6,(hl)",2,12,FLAGS_NONE
+CB  77,documented,"bit 6,a",2,8,FLAGS_NONE
+CB  78,documented,"bit 7,b",2,8,FLAGS_NONE
+CB  79,documented,"bit 7,c",2,8,FLAGS_NONE
+CB  7A,documented,"bit 7,d",2,8,FLAGS_NONE
+CB  7B,documented,"bit 7,e",2,8,FLAGS_NONE
+CB  7C,documented,"bit 7,h",2,8,FLAGS_NONE
+CB  7D,documented,"bit 7,l",2,8,FLAGS_NONE
+CB  7E,documented,"bit 7,(hl)",2,12,FLAGS_NONE
+CB  7F,documented,"bit 7,a",2,8,FLAGS_NONE
+CB  80,documented,"res 0,b",2,8,FLAGS_NONE
+CB  81,documented,"res 0,c",2,8,FLAGS_NONE
+CB  82,documented,"res 0,d",2,8,FLAGS_NONE
+CB  83,documented,"res 0,e",2,8,FLAGS_NONE
+CB  84,documented,"res 0,h",2,8,FLAGS_NONE
+CB  85,documented,"res 0,l",2,8,FLAGS_NONE
+CB  86,documented,"res 0,(hl)",2,15,FLAGS_NONE
+CB  87,documented,"res 0,a",2,8,FLAGS_NONE
+CB  88,documented,"res 1,b",2,8,FLAGS_NONE
+CB  89,documented,"res 1,c",2,8,FLAGS_NONE
+CB  8A,documented,"res 1,d",2,8,FLAGS_NONE
+CB  8B,documented,"res 1,e",2,8,FLAGS_NONE
+CB  8C,documented,"res 1,h",2,8,FLAGS_NONE
+CB  8D,documented,"res 1,l",2,8,FLAGS_NONE
+CB  8E,documented,"res 1,(hl)",2,15,FLAGS_NONE
+CB  8F,documented,"res 1,a",2,8,FLAGS_NONE
+CB  90,documented,"res 2,b",2,8,FLAGS_NONE
+CB  91,documented,"res 2,c",2,8,FLAGS_NONE
+CB  92,documented,"res 2,d",2,8,FLAGS_NONE
+CB  93,documented,"res 2,e",2,8,FLAGS_NONE
+CB  94,documented,"res 2,h",2,8,FLAGS_NONE
+CB  95,documented,"res 2,l",2,8,FLAGS_NONE
+CB  96,documented,"res 2,(hl)",2,15,FLAGS_NONE
+CB  97,documented,"res 2,a",2,8,FLAGS_NONE
+CB  98,documented,"res 3,b",2,8,FLAGS_NONE
+CB  99,documented,"res 3,c",2,8,FLAGS_NONE
+CB  9A,documented,"res 3,d",2,8,FLAGS_NONE
+CB  9B,documented,"res 3,e",2,8,FLAGS_NONE
+CB  9C,documented,"res 3,h",2,8,FLAGS_NONE
+CB  9D,documented,"res 3,l",2,8,FLAGS_NONE
+CB  9E,documented,"res 3,(hl)",2,15,FLAGS_NONE
+CB  9F,documented,"res 3,a",2,8,FLAGS_NONE
+CB  A0,documented,"res 4,b",2,8,FLAGS_NONE
+CB  A1,documented,"res 4,c",2,8,FLAGS_NONE
+CB  A2,documented,"res 4,d",2,8,FLAGS_NONE
+CB  A3,documented,"res 4,e",2,8,FLAGS_NONE
+CB  A4,documented,"res 4,h",2,8,FLAGS_NONE
+CB  A5,documented,"res 4,l",2,8,FLAGS_NONE
+CB  A6,documented,"res 4,(hl)",2,15,FLAGS_NONE
+CB  A7,documented,"res 4,a",2,8,FLAGS_NONE
+CB  A8,documented,"res 5,b",2,8,FLAGS_NONE
+CB  A9,documented,"res 5,c",2,8,FLAGS_NONE
+CB  AA,documented,"res 5,d",2,8,FLAGS_NONE
+CB  AB,documented,"res 5,e",2,8,FLAGS_NONE
+CB  AC,documented,"res 5,h",2,8,FLAGS_NONE
+CB  AD,documented,"res 5,l",2,8,FLAGS_NONE
+CB  AE,documented,"res 5,(hl)",2,15,FLAGS_NONE
+CB  AF,documented,"res 5,a",2,8,FLAGS_NONE
+CB  B0,documented,"res 6,b",2,8,FLAGS_NONE
+CB  B1,documented,"res 6,c",2,8,FLAGS_NONE
+CB  B2,documented,"res 6,d",2,8,FLAGS_NONE
+CB  B3,documented,"res 6,e",2,8,FLAGS_NONE
+CB  B4,documented,"res 6,h",2,8,FLAGS_NONE
+CB  B5,documented,"res 6,l",2,8,FLAGS_NONE
+CB  B6,documented,"res 6,(hl)",2,15,FLAGS_NONE
+CB  B7,documented,"res 6,a",2,8,FLAGS_NONE
+CB  B8,documented,"res 7,b",2,8,FLAGS_NONE
+CB  B9,documented,"res 7,c",2,8,FLAGS_NONE
+CB  BA,documented,"res 7,d",2,8,FLAGS_NONE
+CB  BB,documented,"res 7,e",2,8,FLAGS_NONE
+CB  BC,documented,"res 7,h",2,8,FLAGS_NONE
+CB  BD,documented,"res 7,l",2,8,FLAGS_NONE
+CB  BE,documented,"res 7,(hl)",2,15,FLAGS_NONE
+CB  BF,documented,"res 7,a",2,8,FLAGS_NONE
+CB  C0,documented,"set 0,b",2,8,FLAGS_NONE
+CB  C1,documented,"set 0,c",2,8,FLAGS_NONE
+CB  C2,documented,"set 0,d",2,8,FLAGS_NONE
+CB  C3,documented,"set 0,e",2,8,FLAGS_NONE
+CB  C4,documented,"set 0,h",2,8,FLAGS_NONE
+CB  C5,documented,"set 0,l",2,8,FLAGS_NONE
+CB  C6,documented,"set 0,(hl)",2,15,FLAGS_NONE
+CB  C7,documented,"set 0,a",2,8,FLAGS_NONE
+CB  C8,documented,"set 1,b",2,8,FLAGS_NONE
+CB  C9,documented,"set 1,c",2,8,FLAGS_NONE
+CB  CA,documented,"set 1,d",2,8,FLAGS_NONE
+CB  CB,documented,"set 1,e",2,8,FLAGS_NONE
+CB  CC,documented,"set 1,h",2,8,FLAGS_NONE
+CB  CD,documented,"set 1,l",2,8,FLAGS_NONE
+CB  CE,documented,"set 1,(hl)",2,15,FLAGS_NONE
+CB  CF,documented,"set 1,a",2,8,FLAGS_NONE
+CB  D0,documented,"set 2,b",2,8,FLAGS_NONE
+CB  D1,documented,"set 2,c",2,8,FLAGS_NONE
+CB  D2,documented,"set 2,d",2,8,FLAGS_NONE
+CB  D3,documented,"set 2,e",2,8,FLAGS_NONE
+CB  D4,documented,"set 2,h",2,8,FLAGS_NONE
+CB  D5,documented,"set 2,l",2,8,FLAGS_NONE
+CB  D6,documented,"set 2,(hl)",2,15,FLAGS_NONE
+CB  D7,documented,"set 2,a",2,8,FLAGS_NONE
+CB  D8,documented,"set 3,b",2,8,FLAGS_NONE
+CB  D9,documented,"set 3,c",2,8,FLAGS_NONE
+CB  DA,documented,"set 3,d",2,8,FLAGS_NONE
+CB  DB,documented,"set 3,e",2,8,FLAGS_NONE
+CB  DC,documented,"set 3,h",2,8,FLAGS_NONE
+CB  DD,documented,"set 3,l",2,8,FLAGS_NONE
+CB  DE,documented,"set 3,(hl)",2,15,FLAGS_NONE
+CB  DF,documented,"set 3,a",2,8,FLAGS_NONE
+CB  E0,documented,"set 4,b",2,8,FLAGS_NONE
+CB  E1,documented,"set 4,c",2,8,FLAGS_NONE
+CB  E2,documented,"set 4,d",2,8,FLAGS_NONE
+CB  E3,documented,"set 4,e",2,8,FLAGS_NONE
+CB  E4,documented,"set 4,h",2,8,FLAGS_NONE
+CB  E5,documented,"set 4,l",2,8,FLAGS_NONE
+CB  E6,documented,"set 4,(hl)",2,15,FLAGS_NONE
+CB  E7,documented,"set 4,a",2,8,FLAGS_NONE
+CB  E8,documented,"set 5,b",2,8,FLAGS_NONE
+CB  E9,documented,"set 5,c",2,8,FLAGS_NONE
+CB  EA,documented,"set 5,d",2,8,FLAGS_NONE
+CB  EB,documented,"set 5,e",2,8,FLAGS_NONE
+CB  EC,documented,"set 5,h",2,8,FLAGS_NONE
+CB  ED,documented,"set 5,l",2,8,FLAGS_NONE
+CB  EE,documented,"set 5,(hl)",2,15,FLAGS_NONE
+CB  EF,documented,"set 5,a",2,8,FLAGS_NONE
+CB  F0,documented,"set 6,b",2,8,FLAGS_NONE
+CB  F1,documented,"set 6,c",2,8,FLAGS_NONE
+CB  F2,documented,"set 6,d",2,8,FLAGS_NONE
+CB  F3,documented,"set 6,e",2,8,FLAGS_NONE
+CB  F4,documented,"set 6,h",2,8,FLAGS_NONE
+CB  F5,documented,"set 6,l",2,8,FLAGS_NONE
+CB  F6,documented,"set 6,(hl)",2,15,FLAGS_NONE
+CB  F7,documented,"set 6,a",2,8,FLAGS_NONE
+CB  F8,documented,"set 7,b",2,8,FLAGS_NONE
+CB  F9,documented,"set 7,c",2,8,FLAGS_NONE
+CB  FA,documented,"set 7,d",2,8,FLAGS_NONE
+CB  FB,documented,"set 7,e",2,8,FLAGS_NONE
+CB  FC,documented,"set 7,h",2,8,FLAGS_NONE
+CB  FD,documented,"set 7,l",2,8,FLAGS_NONE
+CB  FE,documented,"set 7,(hl)",2,15,FLAGS_NONE
+CB  FF,documented,"set 7,a",2,8,FLAGS_NONE
 OP_NONE,documented,0,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -519,15 +519,15 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  04,undocumented,inc b,2,8,FLAGS_NONE
 DD  05,undocumented,dec b,2,8,FLAGS_NONE
-DD  06  n,undocumented,ld b,n,3,11,FLAGS_NONE
+DD  06  n,undocumented,"ld b,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  09,documented,add ix,bc,2,15,FLAGS_NONE
+DD  09,documented,"add ix,bc",2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  0C,undocumented,inc c,2,8,FLAGS_NONE
 DD  0D,undocumented,dec c,2,8,FLAGS_NONE
-DD  0E  n,undocumented,ld c,n,3,11,FLAGS_NONE
+DD  0E  n,undocumented,"ld c,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -535,31 +535,31 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  14,undocumented,inc d,2,8,FLAGS_NONE
 DD  15,undocumented,dec d,2,8,FLAGS_NONE
-DD  16  n,undocumented,ld d,n,3,11,FLAGS_NONE
+DD  16  n,undocumented,"ld d,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  19,documented,add ix,de,2,15,FLAGS_NONE
+DD  19,documented,"add ix,de",2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  1C,undocumented,inc e,2,8,FLAGS_NONE
 DD  1D,undocumented,dec e,2,8,FLAGS_NONE
-DD  1E  n,undocumented,ld e,n,3,11,FLAGS_NONE
+DD  1E  n,undocumented,"ld e,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  21  nn,documented,ld ix,nn,4,14,FLAGS_NONE
-DD  22  nn,documented,ld (nn),ix,4,20,FLAGS_NONE
+DD  21  nn,documented,"ld ix,nn",4,14,FLAGS_NONE
+DD  22  nn,documented,"ld (nn),ix",4,20,FLAGS_NONE
 DD  23,documented,inc ix,2,10,FLAGS_NONE
 DD  24,undocumented,inc ixh,2,8,FLAGS_NONE
 DD  25,undocumented,dec ixh,2,8,FLAGS_NONE
-DD  26  n,undocumented,ld ixh,n,3,11,FLAGS_NONE
+DD  26  n,undocumented,"ld ixh,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  29,documented,add ix,ix,2,15,FLAGS_NONE
-DD  2A  nn,documented,ld ix,(nn),4,20,FLAGS_NONE
+DD  29,documented,"add ix,ix",2,15,FLAGS_NONE
+DD  2A  nn,documented,"ld ix,(nn)",4,20,FLAGS_NONE
 DD  2B,documented,dec ix,2,10,FLAGS_NONE
 DD  2C,undocumented,inc ixl,2,8,FLAGS_NONE
 DD  2D,undocumented,dec ixl,2,8,FLAGS_NONE
-DD  2E  n,undocumented,ld ixl,n,3,11,FLAGS_NONE
+DD  2E  n,undocumented,"ld ixl,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -567,96 +567,96 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  34  d,documented,inc (ix+d),3,23,FLAGS_NONE
 DD  35  d,documented,dec (ix+d),3,23,FLAGS_NONE
-DD  36  d n,documented,ld (ix+d),n,4,19,FLAGS_NONE
+DD  36  d n,documented,"ld (ix+d),n",4,19,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  39,documented,add ix,sp,2,15,FLAGS_NONE
+DD  39,documented,"add ix,sp",2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  3C,undocumented,inc a,2,8,FLAGS_NONE
 DD  3D,undocumented,dec a,2,8,FLAGS_NONE
-DD  3E  n,undocumented,ld a,n,3,11,FLAGS_NONE
+DD  3E  n,undocumented,"ld a,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  40,undocumented,ld b,b,2,8,FLAGS_NONE
-DD  41,undocumented,ld b,c,2,8,FLAGS_NONE
-DD  42,undocumented,ld b,d,2,8,FLAGS_NONE
-DD  43,undocumented,ld b,e,2,8,FLAGS_NONE
-DD  44,undocumented,ld b,ixh,2,8,FLAGS_NONE
-DD  45,undocumented,ld b,ixl,2,8,FLAGS_NONE
-DD  46  d,documented,ld b,(ix+d),3,19,FLAGS_NONE
-DD  47,undocumented,ld b,a,2,8,FLAGS_NONE
-DD  48,undocumented,ld c,b,2,8,FLAGS_NONE
-DD  49,undocumented,ld c,c,2,8,FLAGS_NONE
-DD  4A,undocumented,ld c,d,2,8,FLAGS_NONE
-DD  4B,undocumented,ld c,e,2,8,FLAGS_NONE
-DD  4C,undocumented,ld c,ixh,2,8,FLAGS_NONE
-DD  4D,undocumented,ld c,ixl,2,8,FLAGS_NONE
-DD  4E  d,documented,ld c,(ix+d),3,19,FLAGS_NONE
-DD  4F,undocumented,ld c,a,2,8,FLAGS_NONE
-DD  50,undocumented,ld d,b,2,8,FLAGS_NONE
-DD  51,undocumented,ld d,c,2,8,FLAGS_NONE
-DD  52,undocumented,ld d,d,2,8,FLAGS_NONE
-DD  53,undocumented,ld d,e,2,8,FLAGS_NONE
-DD  54,undocumented,ld d,ixh,2,8,FLAGS_NONE
-DD  55,undocumented,ld d,ixl,2,8,FLAGS_NONE
-DD  56  d,documented,ld d,(ix+d),3,19,FLAGS_NONE
-DD  57,undocumented,ld d,a,2,8,FLAGS_NONE
-DD  58,undocumented,ld e,b,2,8,FLAGS_NONE
-DD  59,undocumented,ld e,c,2,8,FLAGS_NONE
-DD  5A,undocumented,ld e,d,2,8,FLAGS_NONE
-DD  5B,undocumented,ld e,e,2,8,FLAGS_NONE
-DD  5C,undocumented,ld e,ixh,2,8,FLAGS_NONE
-DD  5D,undocumented,ld e,ixl,2,8,FLAGS_NONE
-DD  5E  d,documented,ld e,(ix+d),3,19,FLAGS_NONE
-DD  5F,undocumented,ld e,a,2,8,FLAGS_NONE
-DD  60,undocumented,ld ixh,b,2,8,FLAGS_NONE
-DD  61,undocumented,ld ixh,c,2,8,FLAGS_NONE
-DD  62,undocumented,ld ixh,d,2,8,FLAGS_NONE
-DD  63,undocumented,ld ixh,e,2,8,FLAGS_NONE
-DD  64,undocumented,ld ixh,ixh,2,8,FLAGS_NONE
-DD  65,undocumented,ld ixh,ixl,2,8,FLAGS_NONE
-DD  66  d,documented,ld h,(ix+d),3,19,FLAGS_NONE
-DD  67,undocumented,ld ixh,a,2,8,FLAGS_NONE
-DD  68,undocumented,ld ixl,b,2,8,FLAGS_NONE
-DD  69,undocumented,ld ixl,c,2,8,FLAGS_NONE
-DD  6A,undocumented,ld ixl,d,2,8,FLAGS_NONE
-DD  6B,undocumented,ld ixl,e,2,8,FLAGS_NONE
-DD  6C,undocumented,ld ixl,ixh,2,8,FLAGS_NONE
-DD  6D,undocumented,ld ixl,ixl,2,8,FLAGS_NONE
-DD  6E  d,documented,ld l,(ix+d),3,19,FLAGS_NONE
-DD  6F,undocumented,ld ixl,a,2,8,FLAGS_NONE
-DD  70  d,documented,ld (ix+d),b,3,19,FLAGS_NONE
-DD  71  d,documented,ld (ix+d),c,3,19,FLAGS_NONE
-DD  72  d,documented,ld (ix+d),d,3,19,FLAGS_NONE
-DD  73  d,documented,ld (ix+d),e,3,19,FLAGS_NONE
-DD  74  d,documented,ld (ix+d),h,3,19,FLAGS_NONE
-DD  75  d,documented,ld (ix+d),l,3,19,FLAGS_NONE
+DD  40,undocumented,"ld b,b",2,8,FLAGS_NONE
+DD  41,undocumented,"ld b,c",2,8,FLAGS_NONE
+DD  42,undocumented,"ld b,d",2,8,FLAGS_NONE
+DD  43,undocumented,"ld b,e",2,8,FLAGS_NONE
+DD  44,undocumented,"ld b,ixh",2,8,FLAGS_NONE
+DD  45,undocumented,"ld b,ixl",2,8,FLAGS_NONE
+DD  46  d,documented,"ld b,(ix+d)",3,19,FLAGS_NONE
+DD  47,undocumented,"ld b,a",2,8,FLAGS_NONE
+DD  48,undocumented,"ld c,b",2,8,FLAGS_NONE
+DD  49,undocumented,"ld c,c",2,8,FLAGS_NONE
+DD  4A,undocumented,"ld c,d",2,8,FLAGS_NONE
+DD  4B,undocumented,"ld c,e",2,8,FLAGS_NONE
+DD  4C,undocumented,"ld c,ixh",2,8,FLAGS_NONE
+DD  4D,undocumented,"ld c,ixl",2,8,FLAGS_NONE
+DD  4E  d,documented,"ld c,(ix+d)",3,19,FLAGS_NONE
+DD  4F,undocumented,"ld c,a",2,8,FLAGS_NONE
+DD  50,undocumented,"ld d,b",2,8,FLAGS_NONE
+DD  51,undocumented,"ld d,c",2,8,FLAGS_NONE
+DD  52,undocumented,"ld d,d",2,8,FLAGS_NONE
+DD  53,undocumented,"ld d,e",2,8,FLAGS_NONE
+DD  54,undocumented,"ld d,ixh",2,8,FLAGS_NONE
+DD  55,undocumented,"ld d,ixl",2,8,FLAGS_NONE
+DD  56  d,documented,"ld d,(ix+d)",3,19,FLAGS_NONE
+DD  57,undocumented,"ld d,a",2,8,FLAGS_NONE
+DD  58,undocumented,"ld e,b",2,8,FLAGS_NONE
+DD  59,undocumented,"ld e,c",2,8,FLAGS_NONE
+DD  5A,undocumented,"ld e,d",2,8,FLAGS_NONE
+DD  5B,undocumented,"ld e,e",2,8,FLAGS_NONE
+DD  5C,undocumented,"ld e,ixh",2,8,FLAGS_NONE
+DD  5D,undocumented,"ld e,ixl",2,8,FLAGS_NONE
+DD  5E  d,documented,"ld e,(ix+d)",3,19,FLAGS_NONE
+DD  5F,undocumented,"ld e,a",2,8,FLAGS_NONE
+DD  60,undocumented,"ld ixh,b",2,8,FLAGS_NONE
+DD  61,undocumented,"ld ixh,c",2,8,FLAGS_NONE
+DD  62,undocumented,"ld ixh,d",2,8,FLAGS_NONE
+DD  63,undocumented,"ld ixh,e",2,8,FLAGS_NONE
+DD  64,undocumented,"ld ixh,ixh",2,8,FLAGS_NONE
+DD  65,undocumented,"ld ixh,ixl",2,8,FLAGS_NONE
+DD  66  d,documented,"ld h,(ix+d)",3,19,FLAGS_NONE
+DD  67,undocumented,"ld ixh,a",2,8,FLAGS_NONE
+DD  68,undocumented,"ld ixl,b",2,8,FLAGS_NONE
+DD  69,undocumented,"ld ixl,c",2,8,FLAGS_NONE
+DD  6A,undocumented,"ld ixl,d",2,8,FLAGS_NONE
+DD  6B,undocumented,"ld ixl,e",2,8,FLAGS_NONE
+DD  6C,undocumented,"ld ixl,ixh",2,8,FLAGS_NONE
+DD  6D,undocumented,"ld ixl,ixl",2,8,FLAGS_NONE
+DD  6E  d,documented,"ld l,(ix+d)",3,19,FLAGS_NONE
+DD  6F,undocumented,"ld ixl,a",2,8,FLAGS_NONE
+DD  70  d,documented,"ld (ix+d),b",3,19,FLAGS_NONE
+DD  71  d,documented,"ld (ix+d),c",3,19,FLAGS_NONE
+DD  72  d,documented,"ld (ix+d),d",3,19,FLAGS_NONE
+DD  73  d,documented,"ld (ix+d),e",3,19,FLAGS_NONE
+DD  74  d,documented,"ld (ix+d),h",3,19,FLAGS_NONE
+DD  75  d,documented,"ld (ix+d),l",3,19,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  77  d,documented,ld (ix+d),a,3,19,FLAGS_NONE
-DD  78,undocumented,ld a,b,2,8,FLAGS_NONE
-DD  79,undocumented,ld a,c,2,8,FLAGS_NONE
-DD  7A,undocumented,ld a,d,2,8,FLAGS_NONE
-DD  7B,undocumented,ld a,e,2,8,FLAGS_NONE
-DD  7C,undocumented,ld a,ixh,2,8,FLAGS_NONE
-DD  7D,undocumented,ld a,ixl,2,8,FLAGS_NONE
-DD  7E  d,documented,ld a,(ix+d),3,19,FLAGS_NONE
-DD  7F,undocumented,ld a,a,2,8,FLAGS_NONE
-DD  80,undocumented,add a,b,2,8,FLAGS_NONE
-DD  81,undocumented,add a,c,2,8,FLAGS_NONE
-DD  82,undocumented,add a,d,2,8,FLAGS_NONE
-DD  83,undocumented,add a,e,2,8,FLAGS_NONE
-DD  84,undocumented,add a,ixh,2,8,FLAGS_NONE
-DD  85,undocumented,add a,ixl,2,8,FLAGS_NONE
-DD  86  d,documented,add a,(ix+d),3,19,FLAGS_NONE
-DD  87,undocumented,add a,a,2,8,FLAGS_NONE
-DD  88,undocumented,adc a,b,2,8,FLAGS_NONE
-DD  89,undocumented,adc a,c,2,8,FLAGS_NONE
-DD  8A,undocumented,adc a,d,2,8,FLAGS_NONE
-DD  8B,undocumented,adc a,e,2,8,FLAGS_NONE
-DD  8C,undocumented,adc a,ixh,2,8,FLAGS_NONE
-DD  8D,undocumented,adc a,ixl,2,8,FLAGS_NONE
-DD  8E  d,documented,adc a,(ix+d),3,19,FLAGS_NONE
-DD  8F,undocumented,adc a,a,2,8,FLAGS_NONE
+DD  77  d,documented,"ld (ix+d),a",3,19,FLAGS_NONE
+DD  78,undocumented,"ld a,b",2,8,FLAGS_NONE
+DD  79,undocumented,"ld a,c",2,8,FLAGS_NONE
+DD  7A,undocumented,"ld a,d",2,8,FLAGS_NONE
+DD  7B,undocumented,"ld a,e",2,8,FLAGS_NONE
+DD  7C,undocumented,"ld a,ixh",2,8,FLAGS_NONE
+DD  7D,undocumented,"ld a,ixl",2,8,FLAGS_NONE
+DD  7E  d,documented,"ld a,(ix+d)",3,19,FLAGS_NONE
+DD  7F,undocumented,"ld a,a",2,8,FLAGS_NONE
+DD  80,undocumented,"add a,b",2,8,FLAGS_NONE
+DD  81,undocumented,"add a,c",2,8,FLAGS_NONE
+DD  82,undocumented,"add a,d",2,8,FLAGS_NONE
+DD  83,undocumented,"add a,e",2,8,FLAGS_NONE
+DD  84,undocumented,"add a,ixh",2,8,FLAGS_NONE
+DD  85,undocumented,"add a,ixl",2,8,FLAGS_NONE
+DD  86  d,documented,"add a,(ix+d)",3,19,FLAGS_NONE
+DD  87,undocumented,"add a,a",2,8,FLAGS_NONE
+DD  88,undocumented,"adc a,b",2,8,FLAGS_NONE
+DD  89,undocumented,"adc a,c",2,8,FLAGS_NONE
+DD  8A,undocumented,"adc a,d",2,8,FLAGS_NONE
+DD  8B,undocumented,"adc a,e",2,8,FLAGS_NONE
+DD  8C,undocumented,"adc a,ixh",2,8,FLAGS_NONE
+DD  8D,undocumented,"adc a,ixl",2,8,FLAGS_NONE
+DD  8E  d,documented,"adc a,(ix+d)",3,19,FLAGS_NONE
+DD  8F,undocumented,"adc a,a",2,8,FLAGS_NONE
 DD  90,undocumented,sub b,2,8,FLAGS_NONE
 DD  91,undocumented,sub c,2,8,FLAGS_NONE
 DD  92,undocumented,sub d,2,8,FLAGS_NONE
@@ -665,14 +665,14 @@ DD  94,undocumented,sub ixh,2,8,FLAGS_NONE
 DD  95,undocumented,sub ixl,2,8,FLAGS_NONE
 DD  96  d,documented,sub (ix+d),3,19,FLAGS_NONE
 DD  97,undocumented,sub a,2,8,FLAGS_NONE
-DD  98,undocumented,sbc a,b,2,8,FLAGS_NONE
-DD  99,undocumented,sbc a,c,2,8,FLAGS_NONE
-DD  9A,undocumented,sbc a,d,2,8,FLAGS_NONE
-DD  9B,undocumented,sbc a,e,2,8,FLAGS_NONE
-DD  9C,undocumented,sbc a,ixh,2,8,FLAGS_NONE
-DD  9D,undocumented,sbc a,ixl,2,8,FLAGS_NONE
-DD  9E  d,documented,sbc a,(ix+d),3,19,FLAGS_NONE
-DD  9F,undocumented,sbc a,a,2,8,FLAGS_NONE
+DD  98,undocumented,"sbc a,b",2,8,FLAGS_NONE
+DD  99,undocumented,"sbc a,c",2,8,FLAGS_NONE
+DD  9A,undocumented,"sbc a,d",2,8,FLAGS_NONE
+DD  9B,undocumented,"sbc a,e",2,8,FLAGS_NONE
+DD  9C,undocumented,"sbc a,ixh",2,8,FLAGS_NONE
+DD  9D,undocumented,"sbc a,ixl",2,8,FLAGS_NONE
+DD  9E  d,documented,"sbc a,(ix+d)",3,19,FLAGS_NONE
+DD  9F,undocumented,"sbc a,a",2,8,FLAGS_NONE
 DD  A0,undocumented,and b,2,8,FLAGS_NONE
 DD  A1,undocumented,and c,2,8,FLAGS_NONE
 DD  A2,undocumented,and d,2,8,FLAGS_NONE
@@ -724,7 +724,7 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  E1,documented,pop ix,2,14,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  E3,documented,ex (sp),ix,2,23,FLAGS_NONE
+DD  E3,documented,"ex (sp),ix",2,23,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 DD  E5,documented,push ix,2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -746,7 +746,7 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-DD  F9,documented,ld sp,ix,2,10,FLAGS_NONE
+DD  F9,documented,"ld sp,ix",2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -754,305 +754,305 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,documented,0,0,0,FLAGS_NONE
-DD  CB  d  00,undocumented,rlc (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  01,undocumented,rlc (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  02,undocumented,rlc (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  03,undocumented,rlc (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  04,undocumented,rlc (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  05,undocumented,rlc (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  00,undocumented,"rlc (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  01,undocumented,"rlc (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  02,undocumented,"rlc (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  03,undocumented,"rlc (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  04,undocumented,"rlc (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  05,undocumented,"rlc (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  06,documented,rlc (ix+d),4,23,FLAGS_NONE
-DD  CB  d  07,undocumented,rlc (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  08,undocumented,rrc (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  09,undocumented,rrc (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  0A,undocumented,rrc (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  0B,undocumented,rrc (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  0C,undocumented,rrc (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  0D,undocumented,rrc (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  07,undocumented,"rlc (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  08,undocumented,"rrc (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  09,undocumented,"rrc (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  0A,undocumented,"rrc (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  0B,undocumented,"rrc (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  0C,undocumented,"rrc (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  0D,undocumented,"rrc (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  0E,documented,rrc (ix+d),4,23,FLAGS_NONE
-DD  CB  d  0F,undocumented,rrc (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  10,undocumented,rl (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  11,undocumented,rl (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  12,undocumented,rl (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  13,undocumented,rl (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  14,undocumented,rl (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  15,undocumented,rl (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  0F,undocumented,"rrc (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  10,undocumented,"rl (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  11,undocumented,"rl (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  12,undocumented,"rl (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  13,undocumented,"rl (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  14,undocumented,"rl (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  15,undocumented,"rl (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  16,documented,rl (ix+d),4,23,FLAGS_NONE
-DD  CB  d  17,undocumented,rl (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  18,undocumented,rr (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  19,undocumented,rr (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  1A,undocumented,rr (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  1B,undocumented,rr (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  1C,undocumented,rr (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  1D,undocumented,rr (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  17,undocumented,"rl (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  18,undocumented,"rr (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  19,undocumented,"rr (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  1A,undocumented,"rr (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  1B,undocumented,"rr (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  1C,undocumented,"rr (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  1D,undocumented,"rr (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  1E,documented,rr (ix+d),4,23,FLAGS_NONE
-DD  CB  d  1F,undocumented,rr (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  20,undocumented,sla (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  21,undocumented,sla (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  22,undocumented,sla (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  23,undocumented,sla (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  24,undocumented,sla (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  25,undocumented,sla (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  1F,undocumented,"rr (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  20,undocumented,"sla (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  21,undocumented,"sla (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  22,undocumented,"sla (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  23,undocumented,"sla (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  24,undocumented,"sla (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  25,undocumented,"sla (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  26,documented,sla (ix+d),4,23,FLAGS_NONE
-DD  CB  d  27,undocumented,sla (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  28,undocumented,sra (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  29,undocumented,sra (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  2A,undocumented,sra (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  2B,undocumented,sra (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  2C,undocumented,sra (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  2D,undocumented,sra (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  27,undocumented,"sla (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  28,undocumented,"sra (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  29,undocumented,"sra (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  2A,undocumented,"sra (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  2B,undocumented,"sra (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  2C,undocumented,"sra (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  2D,undocumented,"sra (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  2E,documented,sra (ix+d),4,23,FLAGS_NONE
-DD  CB  d  2F,undocumented,sra (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  30,undocumented,sll (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  31,undocumented,sll (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  32,undocumented,sll (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  33,undocumented,sll (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  34,undocumented,sll (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  35,undocumented,sll (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  2F,undocumented,"sra (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  30,undocumented,"sll (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  31,undocumented,"sll (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  32,undocumented,"sll (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  33,undocumented,"sll (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  34,undocumented,"sll (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  35,undocumented,"sll (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  36,undocumented,sll (ix+d),4,23,FLAGS_NONE
-DD  CB  d  37,undocumented,sll (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  38,undocumented,srl (ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  39,undocumented,srl (ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  3A,undocumented,srl (ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  3B,undocumented,srl (ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  3C,undocumented,srl (ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  3D,undocumented,srl (ix+d),l,4,23,FLAGS_NONE
+DD  CB  d  37,undocumented,"sll (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  38,undocumented,"srl (ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  39,undocumented,"srl (ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  3A,undocumented,"srl (ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  3B,undocumented,"srl (ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  3C,undocumented,"srl (ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  3D,undocumented,"srl (ix+d),l",4,23,FLAGS_NONE
 DD  CB  d  3E,documented,srl (ix+d),4,23,FLAGS_NONE
-DD  CB  d  3F,undocumented,srl (ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  40,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  41,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  42,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  43,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  44,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  45,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  46,documented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  47,undocumented,bit 0,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  48,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  49,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  4A,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  4B,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  4C,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  4D,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  4E,documented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  4F,undocumented,bit 1,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  50,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  51,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  52,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  53,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  54,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  55,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  56,documented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  57,undocumented,bit 2,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  58,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  59,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  5A,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  5B,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  5C,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  5D,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  5E,documented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  5F,undocumented,bit 3,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  60,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  61,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  62,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  63,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  64,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  65,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  66,documented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  67,undocumented,bit 4,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  68,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  69,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  6A,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  6B,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  6C,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  6D,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  6E,documented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  6F,undocumented,bit 5,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  70,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  71,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  72,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  73,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  74,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  75,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  76,documented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  77,undocumented,bit 6,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  78,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  79,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  7A,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  7B,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  7C,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  7D,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  7E,documented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  7F,undocumented,bit 7,(ix+d),4,20,FLAGS_NONE
-DD  CB  d  80,undocumented,res 0,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  81,undocumented,res 0,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  82,undocumented,res 0,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  83,undocumented,res 0,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  84,undocumented,res 0,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  85,undocumented,res 0,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  86,documented,res 0,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  87,undocumented,res 0,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  88,undocumented,res 1,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  89,undocumented,res 1,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  8A,undocumented,res 1,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  8B,undocumented,res 1,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  8C,undocumented,res 1,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  8D,undocumented,res 1,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  8E,documented,res 1,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  8F,undocumented,res 1,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  90,undocumented,res 2,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  91,undocumented,res 2,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  92,undocumented,res 2,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  93,undocumented,res 2,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  94,undocumented,res 2,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  95,undocumented,res 2,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  96,documented,res 2,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  97,undocumented,res 2,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  98,undocumented,res 3,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  99,undocumented,res 3,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  9A,undocumented,res 3,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  9B,undocumented,res 3,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  9C,undocumented,res 3,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  9D,undocumented,res 3,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  9E,documented,res 3,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  9F,undocumented,res 3,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  A0,undocumented,res 4,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  A1,undocumented,res 4,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  A2,undocumented,res 4,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  A3,undocumented,res 4,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  A4,undocumented,res 4,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  A5,undocumented,res 4,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  A6,documented,res 4,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  A7,undocumented,res 4,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  A8,undocumented,res 5,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  A9,undocumented,res 5,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  AA,undocumented,res 5,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  AB,undocumented,res 5,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  AC,undocumented,res 5,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  AD,undocumented,res 5,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  AE,documented,res 5,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  AF,undocumented,res 5,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  B0,undocumented,res 6,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  B1,undocumented,res 6,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  B2,undocumented,res 6,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  B3,undocumented,res 6,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  B4,undocumented,res 6,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  B5,undocumented,res 6,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  B6,documented,res 6,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  B7,undocumented,res 6,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  B8,undocumented,res 7,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  B9,undocumented,res 7,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  BA,undocumented,res 7,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  BB,undocumented,res 7,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  BC,undocumented,res 7,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  BD,undocumented,res 7,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  BE,documented,res 7,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  BF,undocumented,res 7,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  C0,undocumented,set 0,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  C1,undocumented,set 0,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  C2,undocumented,set 0,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  C3,undocumented,set 0,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  C4,undocumented,set 0,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  C5,undocumented,set 0,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  C6,documented,set 0,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  C7,undocumented,set 0,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  C8,undocumented,set 1,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  C9,undocumented,set 1,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  CA,undocumented,set 1,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  CB,undocumented,set 1,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  CC,undocumented,set 1,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  CD,undocumented,set 1,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  CE,documented,set 1,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  CF,undocumented,set 1,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  D0,undocumented,set 2,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  D1,undocumented,set 2,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  D2,undocumented,set 2,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  D3,undocumented,set 2,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  D4,undocumented,set 2,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  D5,undocumented,set 2,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  D6,documented,set 2,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  D7,undocumented,set 2,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  D8,undocumented,set 3,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  D9,undocumented,set 3,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  DA,undocumented,set 3,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  DB,undocumented,set 3,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  DC,undocumented,set 3,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  DD,undocumented,set 3,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  DE,documented,set 3,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  DF,undocumented,set 3,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  E0,undocumented,set 4,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  E1,undocumented,set 4,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  E2,undocumented,set 4,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  E3,undocumented,set 4,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  E4,undocumented,set 4,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  E5,undocumented,set 4,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  E6,documented,set 4,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  E7,undocumented,set 4,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  E8,undocumented,set 5,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  E9,undocumented,set 5,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  EA,undocumented,set 5,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  EB,undocumented,set 5,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  EC,undocumented,set 5,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  ED,undocumented,set 5,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  EE,documented,set 5,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  EF,undocumented,set 5,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  F0,undocumented,set 6,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  F1,undocumented,set 6,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  F2,undocumented,set 6,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  F3,undocumented,set 6,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  F4,undocumented,set 6,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  F5,undocumented,set 6,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  F6,documented,set 6,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  F7,undocumented,set 6,(ix+d),a,4,23,FLAGS_NONE
-DD  CB  d  F8,undocumented,set 7,(ix+d),b,4,23,FLAGS_NONE
-DD  CB  d  F9,undocumented,set 7,(ix+d),c,4,23,FLAGS_NONE
-DD  CB  d  FA,undocumented,set 7,(ix+d),d,4,23,FLAGS_NONE
-DD  CB  d  FB,undocumented,set 7,(ix+d),e,4,23,FLAGS_NONE
-DD  CB  d  FC,undocumented,set 7,(ix+d),h,4,23,FLAGS_NONE
-DD  CB  d  FD,undocumented,set 7,(ix+d),l,4,23,FLAGS_NONE
-DD  CB  d  FE,documented,set 7,(ix+d),4,23,FLAGS_NONE
-DD  CB  d  FF,undocumented,set 7,(ix+d),a,4,23,FLAGS_NONE
+DD  CB  d  3F,undocumented,"srl (ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  40,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  41,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  42,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  43,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  44,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  45,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  46,documented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  47,undocumented,"bit 0,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  48,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  49,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  4A,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  4B,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  4C,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  4D,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  4E,documented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  4F,undocumented,"bit 1,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  50,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  51,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  52,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  53,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  54,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  55,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  56,documented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  57,undocumented,"bit 2,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  58,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  59,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  5A,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  5B,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  5C,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  5D,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  5E,documented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  5F,undocumented,"bit 3,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  60,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  61,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  62,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  63,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  64,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  65,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  66,documented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  67,undocumented,"bit 4,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  68,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  69,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  6A,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  6B,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  6C,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  6D,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  6E,documented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  6F,undocumented,"bit 5,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  70,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  71,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  72,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  73,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  74,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  75,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  76,documented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  77,undocumented,"bit 6,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  78,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  79,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  7A,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  7B,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  7C,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  7D,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  7E,documented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  7F,undocumented,"bit 7,(ix+d)",4,20,FLAGS_NONE
+DD  CB  d  80,undocumented,"res 0,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  81,undocumented,"res 0,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  82,undocumented,"res 0,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  83,undocumented,"res 0,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  84,undocumented,"res 0,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  85,undocumented,"res 0,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  86,documented,"res 0,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  87,undocumented,"res 0,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  88,undocumented,"res 1,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  89,undocumented,"res 1,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  8A,undocumented,"res 1,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  8B,undocumented,"res 1,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  8C,undocumented,"res 1,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  8D,undocumented,"res 1,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  8E,documented,"res 1,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  8F,undocumented,"res 1,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  90,undocumented,"res 2,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  91,undocumented,"res 2,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  92,undocumented,"res 2,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  93,undocumented,"res 2,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  94,undocumented,"res 2,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  95,undocumented,"res 2,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  96,documented,"res 2,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  97,undocumented,"res 2,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  98,undocumented,"res 3,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  99,undocumented,"res 3,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  9A,undocumented,"res 3,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  9B,undocumented,"res 3,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  9C,undocumented,"res 3,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  9D,undocumented,"res 3,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  9E,documented,"res 3,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  9F,undocumented,"res 3,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  A0,undocumented,"res 4,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  A1,undocumented,"res 4,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  A2,undocumented,"res 4,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  A3,undocumented,"res 4,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  A4,undocumented,"res 4,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  A5,undocumented,"res 4,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  A6,documented,"res 4,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  A7,undocumented,"res 4,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  A8,undocumented,"res 5,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  A9,undocumented,"res 5,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  AA,undocumented,"res 5,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  AB,undocumented,"res 5,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  AC,undocumented,"res 5,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  AD,undocumented,"res 5,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  AE,documented,"res 5,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  AF,undocumented,"res 5,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  B0,undocumented,"res 6,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  B1,undocumented,"res 6,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  B2,undocumented,"res 6,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  B3,undocumented,"res 6,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  B4,undocumented,"res 6,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  B5,undocumented,"res 6,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  B6,documented,"res 6,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  B7,undocumented,"res 6,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  B8,undocumented,"res 7,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  B9,undocumented,"res 7,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  BA,undocumented,"res 7,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  BB,undocumented,"res 7,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  BC,undocumented,"res 7,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  BD,undocumented,"res 7,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  BE,documented,"res 7,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  BF,undocumented,"res 7,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  C0,undocumented,"set 0,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  C1,undocumented,"set 0,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  C2,undocumented,"set 0,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  C3,undocumented,"set 0,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  C4,undocumented,"set 0,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  C5,undocumented,"set 0,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  C6,documented,"set 0,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  C7,undocumented,"set 0,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  C8,undocumented,"set 1,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  C9,undocumented,"set 1,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  CA,undocumented,"set 1,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  CB,undocumented,"set 1,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  CC,undocumented,"set 1,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  CD,undocumented,"set 1,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  CE,documented,"set 1,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  CF,undocumented,"set 1,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  D0,undocumented,"set 2,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  D1,undocumented,"set 2,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  D2,undocumented,"set 2,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  D3,undocumented,"set 2,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  D4,undocumented,"set 2,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  D5,undocumented,"set 2,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  D6,documented,"set 2,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  D7,undocumented,"set 2,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  D8,undocumented,"set 3,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  D9,undocumented,"set 3,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  DA,undocumented,"set 3,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  DB,undocumented,"set 3,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  DC,undocumented,"set 3,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  DD,undocumented,"set 3,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  DE,documented,"set 3,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  DF,undocumented,"set 3,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  E0,undocumented,"set 4,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  E1,undocumented,"set 4,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  E2,undocumented,"set 4,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  E3,undocumented,"set 4,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  E4,undocumented,"set 4,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  E5,undocumented,"set 4,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  E6,documented,"set 4,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  E7,undocumented,"set 4,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  E8,undocumented,"set 5,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  E9,undocumented,"set 5,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  EA,undocumented,"set 5,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  EB,undocumented,"set 5,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  EC,undocumented,"set 5,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  ED,undocumented,"set 5,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  EE,documented,"set 5,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  EF,undocumented,"set 5,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  F0,undocumented,"set 6,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  F1,undocumented,"set 6,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  F2,undocumented,"set 6,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  F3,undocumented,"set 6,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  F4,undocumented,"set 6,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  F5,undocumented,"set 6,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  F6,documented,"set 6,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  F7,undocumented,"set 6,(ix+d),a",4,23,FLAGS_NONE
+DD  CB  d  F8,undocumented,"set 7,(ix+d),b",4,23,FLAGS_NONE
+DD  CB  d  F9,undocumented,"set 7,(ix+d),c",4,23,FLAGS_NONE
+DD  CB  d  FA,undocumented,"set 7,(ix+d),d",4,23,FLAGS_NONE
+DD  CB  d  FB,undocumented,"set 7,(ix+d),e",4,23,FLAGS_NONE
+DD  CB  d  FC,undocumented,"set 7,(ix+d),h",4,23,FLAGS_NONE
+DD  CB  d  FD,undocumented,"set 7,(ix+d),l",4,23,FLAGS_NONE
+DD  CB  d  FE,documented,"set 7,(ix+d)",4,23,FLAGS_NONE
+DD  CB  d  FF,undocumented,"set 7,(ix+d),a",4,23,FLAGS_NONE
 OP_NONE,documented,0,0,0,FLAGS_NONE
-ED  00  n,z180,in0 b,(n),3,12,FLAGS_NONE
-ED  01  n,z180,out0 (n),b,3,13,FLAGS_NONE
+ED  00  n,z180,"in0 b,(n)",3,12,FLAGS_NONE
+ED  01  n,z180,"out0 (n),b",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  04,z180,tst b,2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  08  n,z180,in0 c,(n),3,12,FLAGS_NONE
-ED  09  n,z180,out0 (n),c,3,13,FLAGS_NONE
+ED  08  n,z180,"in0 c,(n)",3,12,FLAGS_NONE
+ED  09  n,z180,"out0 (n),c",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  0C,z180,tst c,2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  10  n,z180,in0 d,(n),3,12,FLAGS_NONE
-ED  11  n,z180,out0 (n),d,3,13,FLAGS_NONE
+ED  10  n,z180,"in0 d,(n)",3,12,FLAGS_NONE
+ED  11  n,z180,"out0 (n),d",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  14,z180,tst d,2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  18  n,z180,in0 e,(n),3,12,FLAGS_NONE
-ED  19  n,z180,out0 (n),e,3,13,FLAGS_NONE
+ED  18  n,z180,"in0 e,(n)",3,12,FLAGS_NONE
+ED  19  n,z180,"out0 (n),e",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  1C,z180,tst e,2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  20  n,z180,in0 h,(n),3,12,FLAGS_NONE
-ED  21  n,z180,out0 (n),h,3,13,FLAGS_NONE
+ED  20  n,z180,"in0 h,(n)",3,12,FLAGS_NONE
+ED  21  n,z180,"out0 (n),h",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  24,z180,tst h,2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  28  n,z180,in0 l,(n),3,12,FLAGS_NONE
-ED  29  n,z180,out0 (n),l,3,13,FLAGS_NONE
+ED  28  n,z180,"in0 l,(n)",3,12,FLAGS_NONE
+ED  29  n,z180,"out0 (n),l",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  2C,z180,tst l,2,10,FLAGS_NONE
@@ -1067,74 +1067,74 @@ ED  34,z180,tst (hl),2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  38  n,z180,in0 a,(n),3,12,FLAGS_NONE
-ED  39  n,z180,out0 (n),a,3,13,FLAGS_NONE
+ED  38  n,z180,"in0 a,(n)",3,12,FLAGS_NONE
+ED  39  n,z180,"out0 (n),a",3,13,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  3C,z180,tst a,2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  40,documented,in b,(c),2,12,FLAGS_NONE
-ED  41,documented,out (c),b,2,12,FLAGS_NONE
-ED  42,documented,sbc hl,bc,2,15,FLAGS_NONE
-ED  43  nn,documented,ld (nn),bc,4,20,FLAGS_NONE
+ED  40,documented,"in b,(c)",2,12,FLAGS_NONE
+ED  41,documented,"out (c),b",2,12,FLAGS_NONE
+ED  42,documented,"sbc hl,bc",2,15,FLAGS_NONE
+ED  43  nn,documented,"ld (nn),bc",4,20,FLAGS_NONE
 ED  44,documented,neg,2,8,FLAGS_NONE
 ED  45,documented,retn,2,14,FLAGS_NONE
 ED  46,documented,im 0,2,8,FLAGS_NONE
-ED  47,documented,ld i,a,2,9,FLAGS_NONE
-ED  48,documented,in c,(c),2,12,FLAGS_NONE
-ED  49,documented,out (c),c,2,12,FLAGS_NONE
-ED  4A,documented,adc hl,bc,2,15,FLAGS_NONE
-ED  4B  nn,documented,ld bc,(nn),4,20,FLAGS_NONE
+ED  47,documented,"ld i,a",2,9,FLAGS_NONE
+ED  48,documented,"in c,(c)",2,12,FLAGS_NONE
+ED  49,documented,"out (c),c",2,12,FLAGS_NONE
+ED  4A,documented,"adc hl,bc",2,15,FLAGS_NONE
+ED  4B  nn,documented,"ld bc,(nn)",4,20,FLAGS_NONE
 ED  4C,z180,mlt bc,2,17,FLAGS_NONE
 ED  4D,documented,reti,2,14,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  4F,documented,ld r,a,2,9,FLAGS_NONE
-ED  50,documented,in d,(c),2,12,FLAGS_NONE
-ED  51,documented,out (c),d,2,12,FLAGS_NONE
-ED  52,documented,sbc hl,de,2,15,FLAGS_NONE
-ED  53  nn,documented,ld (nn),de,4,20,FLAGS_NONE
+ED  4F,documented,"ld r,a",2,9,FLAGS_NONE
+ED  50,documented,"in d,(c)",2,12,FLAGS_NONE
+ED  51,documented,"out (c),d",2,12,FLAGS_NONE
+ED  52,documented,"sbc hl,de",2,15,FLAGS_NONE
+ED  53  nn,documented,"ld (nn),de",4,20,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  56,documented,im 1,2,8,FLAGS_NONE
-ED  57,documented,ld a,i,2,9,FLAGS_NONE
-ED  58,documented,in e,(c),2,12,FLAGS_NONE
-ED  59,documented,out (c),e,2,12,FLAGS_NONE
-ED  5A,documented,adc hl,de,2,15,FLAGS_NONE
-ED  5B  nn,documented,ld de,(nn),4,20,FLAGS_NONE
+ED  57,documented,"ld a,i",2,9,FLAGS_NONE
+ED  58,documented,"in e,(c)",2,12,FLAGS_NONE
+ED  59,documented,"out (c),e",2,12,FLAGS_NONE
+ED  5A,documented,"adc hl,de",2,15,FLAGS_NONE
+ED  5B  nn,documented,"ld de,(nn)",4,20,FLAGS_NONE
 ED  5C,z180,mlt de,2,17,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  5E,documented,im 2,2,8,FLAGS_NONE
-ED  5F,documented,ld a,r,2,9,FLAGS_NONE
-ED  60,documented,in h,(c),2,12,FLAGS_NONE
-ED  61,documented,out (c),h,2,12,FLAGS_NONE
-ED  62,documented,sbc hl,hl,2,15,FLAGS_NONE
-ED  63  nn,undocumented,ld (nn),hl,4,20,FLAGS_NONE
+ED  5F,documented,"ld a,r",2,9,FLAGS_NONE
+ED  60,documented,"in h,(c)",2,12,FLAGS_NONE
+ED  61,documented,"out (c),h",2,12,FLAGS_NONE
+ED  62,documented,"sbc hl,hl",2,15,FLAGS_NONE
+ED  63  nn,undocumented,"ld (nn),hl",4,20,FLAGS_NONE
 ED  64  n,z180,tst n,3,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  67,documented,rrd,2,18,FLAGS_NONE
-ED  68,documented,in l,(c),2,12,FLAGS_NONE
-ED  69,documented,out (c),l,2,12,FLAGS_NONE
-ED  6A,documented,adc hl,hl,2,15,FLAGS_NONE
-ED  6B  nn,undocumented,ld hl,(nn),4,20,FLAGS_NONE
+ED  68,documented,"in l,(c)",2,12,FLAGS_NONE
+ED  69,documented,"out (c),l",2,12,FLAGS_NONE
+ED  6A,documented,"adc hl,hl",2,15,FLAGS_NONE
+ED  6B  nn,undocumented,"ld hl,(nn)",4,20,FLAGS_NONE
 ED  6C,z180,mlt hl,2,17,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  6F,documented,rld,2,18,FLAGS_NONE
 ED  70,undocumented,in (c),2,12,FLAGS_NONE
-ED  71,undocumented,out (c),0,2,12,FLAGS_NONE
-ED  72,documented,sbc hl,sp,2,15,FLAGS_NONE
-ED  73  nn,documented,ld (nn),sp,4,20,FLAGS_NONE
+ED  71,undocumented,"out (c),0",2,12,FLAGS_NONE
+ED  72,documented,"sbc hl,sp",2,15,FLAGS_NONE
+ED  73  nn,documented,"ld (nn),sp",4,20,FLAGS_NONE
 ED  74  n,z180,tstio n,3,12,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 ED  76,z180,slp,2,8,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-ED  78,documented,in a,(c),2,12,FLAGS_NONE
-ED  79,documented,out (c),a,2,12,FLAGS_NONE
-ED  7A,documented,adc hl,sp,2,15,FLAGS_NONE
-ED  7B  nn,documented,ld sp,(nn),4,20,FLAGS_NONE
+ED  78,documented,"in a,(c)",2,12,FLAGS_NONE
+ED  79,documented,"out (c),a",2,12,FLAGS_NONE
+ED  7A,documented,"adc hl,sp",2,15,FLAGS_NONE
+ED  7B  nn,documented,"ld sp,(nn)",4,20,FLAGS_NONE
 ED  7C,z180,mlt sp,2,17,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -1210,15 +1210,15 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  04,undocumented,inc b,2,8,FLAGS_NONE
 FD  05,undocumented,dec b,2,8,FLAGS_NONE
-FD  06  n,undocumented,ld b,n,3,11,FLAGS_NONE
+FD  06  n,undocumented,"ld b,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  09,documented,add iy,bc,2,15,FLAGS_NONE
+FD  09,documented,"add iy,bc",2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  0C,undocumented,inc c,2,8,FLAGS_NONE
 FD  0D,undocumented,dec c,2,8,FLAGS_NONE
-FD  0E  n,undocumented,ld c,n,3,11,FLAGS_NONE
+FD  0E  n,undocumented,"ld c,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -1226,31 +1226,31 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  14,undocumented,inc d,2,8,FLAGS_NONE
 FD  15,undocumented,dec d,2,8,FLAGS_NONE
-FD  16  n,undocumented,ld d,n,3,11,FLAGS_NONE
+FD  16  n,undocumented,"ld d,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  19,documented,add iy,de,2,15,FLAGS_NONE
+FD  19,documented,"add iy,de",2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  1C,undocumented,inc e,2,8,FLAGS_NONE
 FD  1D,undocumented,dec e,2,8,FLAGS_NONE
-FD  1E  n,undocumented,ld e,n,3,11,FLAGS_NONE
+FD  1E  n,undocumented,"ld e,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  21  nn,documented,ld iy,nn,4,14,FLAGS_NONE
-FD  22  nn,documented,ld (nn),iy,4,20,FLAGS_NONE
+FD  21  nn,documented,"ld iy,nn",4,14,FLAGS_NONE
+FD  22  nn,documented,"ld (nn),iy",4,20,FLAGS_NONE
 FD  23,documented,inc iy,2,10,FLAGS_NONE
 FD  24,undocumented,inc iyh,2,8,FLAGS_NONE
 FD  25,undocumented,dec iyh,2,8,FLAGS_NONE
-FD  26  n,undocumented,ld iyh,n,3,11,FLAGS_NONE
+FD  26  n,undocumented,"ld iyh,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  29,documented,add iy,iy,2,15,FLAGS_NONE
-FD  2A  nn,documented,ld iy,(nn),4,20,FLAGS_NONE
+FD  29,documented,"add iy,iy",2,15,FLAGS_NONE
+FD  2A  nn,documented,"ld iy,(nn)",4,20,FLAGS_NONE
 FD  2B,documented,dec iy,2,10,FLAGS_NONE
 FD  2C,undocumented,inc iyl,2,8,FLAGS_NONE
 FD  2D,undocumented,dec iyl,2,8,FLAGS_NONE
-FD  2E  n,undocumented,ld iyl,n,3,11,FLAGS_NONE
+FD  2E  n,undocumented,"ld iyl,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -1258,96 +1258,96 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  34  d,documented,inc (iy+d),3,23,FLAGS_NONE
 FD  35  d,documented,dec (iy+d),3,23,FLAGS_NONE
-FD  36  d n,documented,ld (iy+d),n,4,19,FLAGS_NONE
+FD  36  d n,documented,"ld (iy+d),n",4,19,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  39,documented,add iy,sp,2,15,FLAGS_NONE
+FD  39,documented,"add iy,sp",2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  3C,undocumented,inc a,2,8,FLAGS_NONE
 FD  3D,undocumented,dec a,2,8,FLAGS_NONE
-FD  3E  n,undocumented,ld a,n,3,11,FLAGS_NONE
+FD  3E  n,undocumented,"ld a,n",3,11,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  40,undocumented,ld b,b,2,8,FLAGS_NONE
-FD  41,undocumented,ld b,c,2,8,FLAGS_NONE
-FD  42,undocumented,ld b,d,2,8,FLAGS_NONE
-FD  43,undocumented,ld b,e,2,8,FLAGS_NONE
-FD  44,undocumented,ld b,iyh,2,8,FLAGS_NONE
-FD  45,undocumented,ld b,iyl,2,8,FLAGS_NONE
-FD  46  d,documented,ld b,(iy+d),3,19,FLAGS_NONE
-FD  47,undocumented,ld b,a,2,8,FLAGS_NONE
-FD  48,undocumented,ld c,b,2,8,FLAGS_NONE
-FD  49,undocumented,ld c,c,2,8,FLAGS_NONE
-FD  4A,undocumented,ld c,d,2,8,FLAGS_NONE
-FD  4B,undocumented,ld c,e,2,8,FLAGS_NONE
-FD  4C,undocumented,ld c,iyh,2,8,FLAGS_NONE
-FD  4D,undocumented,ld c,iyl,2,8,FLAGS_NONE
-FD  4E  d,documented,ld c,(iy+d),3,19,FLAGS_NONE
-FD  4F,undocumented,ld c,a,2,8,FLAGS_NONE
-FD  50,undocumented,ld d,b,2,8,FLAGS_NONE
-FD  51,undocumented,ld d,c,2,8,FLAGS_NONE
-FD  52,undocumented,ld d,d,2,8,FLAGS_NONE
-FD  53,undocumented,ld d,e,2,8,FLAGS_NONE
-FD  54,undocumented,ld d,iyh,2,8,FLAGS_NONE
-FD  55,undocumented,ld d,iyl,2,8,FLAGS_NONE
-FD  56  d,documented,ld d,(iy+d),3,19,FLAGS_NONE
-FD  57,undocumented,ld d,a,2,8,FLAGS_NONE
-FD  58,undocumented,ld e,b,2,8,FLAGS_NONE
-FD  59,undocumented,ld e,c,2,8,FLAGS_NONE
-FD  5A,undocumented,ld e,d,2,8,FLAGS_NONE
-FD  5B,undocumented,ld e,e,2,8,FLAGS_NONE
-FD  5C,undocumented,ld e,iyh,2,8,FLAGS_NONE
-FD  5D,undocumented,ld e,iyl,2,8,FLAGS_NONE
-FD  5E  d,documented,ld e,(iy+d),3,19,FLAGS_NONE
-FD  5F,undocumented,ld e,a,2,8,FLAGS_NONE
-FD  60,undocumented,ld iyh,b,2,8,FLAGS_NONE
-FD  61,undocumented,ld iyh,c,2,8,FLAGS_NONE
-FD  62,undocumented,ld iyh,d,2,8,FLAGS_NONE
-FD  63,undocumented,ld iyh,e,2,8,FLAGS_NONE
-FD  64,undocumented,ld iyh,iyh,2,8,FLAGS_NONE
-FD  65,undocumented,ld iyh,iyl,2,8,FLAGS_NONE
-FD  66  d,documented,ld h,(iy+d),3,19,FLAGS_NONE
-FD  67,undocumented,ld iyh,a,2,8,FLAGS_NONE
-FD  68,undocumented,ld iyl,b,2,8,FLAGS_NONE
-FD  69,undocumented,ld iyl,c,2,8,FLAGS_NONE
-FD  6A,undocumented,ld iyl,d,2,8,FLAGS_NONE
-FD  6B,undocumented,ld iyl,e,2,8,FLAGS_NONE
-FD  6C,undocumented,ld iyl,iyh,2,8,FLAGS_NONE
-FD  6D,undocumented,ld iyl,iyl,2,8,FLAGS_NONE
-FD  6E  d,documented,ld l,(iy+d),3,19,FLAGS_NONE
-FD  6F,undocumented,ld iyl,a,2,8,FLAGS_NONE
-FD  70  d,documented,ld (iy+d),b,3,19,FLAGS_NONE
-FD  71  d,documented,ld (iy+d),c,3,19,FLAGS_NONE
-FD  72  d,documented,ld (iy+d),d,3,19,FLAGS_NONE
-FD  73  d,documented,ld (iy+d),e,3,19,FLAGS_NONE
-FD  74  d,documented,ld (iy+d),h,3,19,FLAGS_NONE
-FD  75  d,documented,ld (iy+d),l,3,19,FLAGS_NONE
+FD  40,undocumented,"ld b,b",2,8,FLAGS_NONE
+FD  41,undocumented,"ld b,c",2,8,FLAGS_NONE
+FD  42,undocumented,"ld b,d",2,8,FLAGS_NONE
+FD  43,undocumented,"ld b,e",2,8,FLAGS_NONE
+FD  44,undocumented,"ld b,iyh",2,8,FLAGS_NONE
+FD  45,undocumented,"ld b,iyl",2,8,FLAGS_NONE
+FD  46  d,documented,"ld b,(iy+d)",3,19,FLAGS_NONE
+FD  47,undocumented,"ld b,a",2,8,FLAGS_NONE
+FD  48,undocumented,"ld c,b",2,8,FLAGS_NONE
+FD  49,undocumented,"ld c,c",2,8,FLAGS_NONE
+FD  4A,undocumented,"ld c,d",2,8,FLAGS_NONE
+FD  4B,undocumented,"ld c,e",2,8,FLAGS_NONE
+FD  4C,undocumented,"ld c,iyh",2,8,FLAGS_NONE
+FD  4D,undocumented,"ld c,iyl",2,8,FLAGS_NONE
+FD  4E  d,documented,"ld c,(iy+d)",3,19,FLAGS_NONE
+FD  4F,undocumented,"ld c,a",2,8,FLAGS_NONE
+FD  50,undocumented,"ld d,b",2,8,FLAGS_NONE
+FD  51,undocumented,"ld d,c",2,8,FLAGS_NONE
+FD  52,undocumented,"ld d,d",2,8,FLAGS_NONE
+FD  53,undocumented,"ld d,e",2,8,FLAGS_NONE
+FD  54,undocumented,"ld d,iyh",2,8,FLAGS_NONE
+FD  55,undocumented,"ld d,iyl",2,8,FLAGS_NONE
+FD  56  d,documented,"ld d,(iy+d)",3,19,FLAGS_NONE
+FD  57,undocumented,"ld d,a",2,8,FLAGS_NONE
+FD  58,undocumented,"ld e,b",2,8,FLAGS_NONE
+FD  59,undocumented,"ld e,c",2,8,FLAGS_NONE
+FD  5A,undocumented,"ld e,d",2,8,FLAGS_NONE
+FD  5B,undocumented,"ld e,e",2,8,FLAGS_NONE
+FD  5C,undocumented,"ld e,iyh",2,8,FLAGS_NONE
+FD  5D,undocumented,"ld e,iyl",2,8,FLAGS_NONE
+FD  5E  d,documented,"ld e,(iy+d)",3,19,FLAGS_NONE
+FD  5F,undocumented,"ld e,a",2,8,FLAGS_NONE
+FD  60,undocumented,"ld iyh,b",2,8,FLAGS_NONE
+FD  61,undocumented,"ld iyh,c",2,8,FLAGS_NONE
+FD  62,undocumented,"ld iyh,d",2,8,FLAGS_NONE
+FD  63,undocumented,"ld iyh,e",2,8,FLAGS_NONE
+FD  64,undocumented,"ld iyh,iyh",2,8,FLAGS_NONE
+FD  65,undocumented,"ld iyh,iyl",2,8,FLAGS_NONE
+FD  66  d,documented,"ld h,(iy+d)",3,19,FLAGS_NONE
+FD  67,undocumented,"ld iyh,a",2,8,FLAGS_NONE
+FD  68,undocumented,"ld iyl,b",2,8,FLAGS_NONE
+FD  69,undocumented,"ld iyl,c",2,8,FLAGS_NONE
+FD  6A,undocumented,"ld iyl,d",2,8,FLAGS_NONE
+FD  6B,undocumented,"ld iyl,e",2,8,FLAGS_NONE
+FD  6C,undocumented,"ld iyl,iyh",2,8,FLAGS_NONE
+FD  6D,undocumented,"ld iyl,iyl",2,8,FLAGS_NONE
+FD  6E  d,documented,"ld l,(iy+d)",3,19,FLAGS_NONE
+FD  6F,undocumented,"ld iyl,a",2,8,FLAGS_NONE
+FD  70  d,documented,"ld (iy+d),b",3,19,FLAGS_NONE
+FD  71  d,documented,"ld (iy+d),c",3,19,FLAGS_NONE
+FD  72  d,documented,"ld (iy+d),d",3,19,FLAGS_NONE
+FD  73  d,documented,"ld (iy+d),e",3,19,FLAGS_NONE
+FD  74  d,documented,"ld (iy+d),h",3,19,FLAGS_NONE
+FD  75  d,documented,"ld (iy+d),l",3,19,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  77  d,documented,ld (iy+d),a,3,19,FLAGS_NONE
-FD  78,undocumented,ld a,b,2,8,FLAGS_NONE
-FD  79,undocumented,ld a,c,2,8,FLAGS_NONE
-FD  7A,undocumented,ld a,d,2,8,FLAGS_NONE
-FD  7B,undocumented,ld a,e,2,8,FLAGS_NONE
-FD  7C,undocumented,ld a,iyh,2,8,FLAGS_NONE
-FD  7D,undocumented,ld a,iyl,2,8,FLAGS_NONE
-FD  7E  d,documented,ld a,(iy+d),3,19,FLAGS_NONE
-FD  7F,undocumented,ld a,a,2,8,FLAGS_NONE
-FD  80,undocumented,add a,b,2,8,FLAGS_NONE
-FD  81,undocumented,add a,c,2,8,FLAGS_NONE
-FD  82,undocumented,add a,d,2,8,FLAGS_NONE
-FD  83,undocumented,add a,e,2,8,FLAGS_NONE
-FD  84,undocumented,add a,iyh,2,8,FLAGS_NONE
-FD  85,undocumented,add a,iyl,2,8,FLAGS_NONE
-FD  86  d,documented,add a,(iy+d),3,19,FLAGS_NONE
-FD  87,undocumented,add a,a,2,8,FLAGS_NONE
-FD  88,undocumented,adc a,b,2,8,FLAGS_NONE
-FD  89,undocumented,adc a,c,2,8,FLAGS_NONE
-FD  8A,undocumented,adc a,d,2,8,FLAGS_NONE
-FD  8B,undocumented,adc a,e,2,8,FLAGS_NONE
-FD  8C,undocumented,adc a,iyh,2,8,FLAGS_NONE
-FD  8D,undocumented,adc a,iyl,2,8,FLAGS_NONE
-FD  8E  d,documented,adc a,(iy+d),3,19,FLAGS_NONE
-FD  8F,undocumented,adc a,a,2,8,FLAGS_NONE
+FD  77  d,documented,"ld (iy+d),a",3,19,FLAGS_NONE
+FD  78,undocumented,"ld a,b",2,8,FLAGS_NONE
+FD  79,undocumented,"ld a,c",2,8,FLAGS_NONE
+FD  7A,undocumented,"ld a,d",2,8,FLAGS_NONE
+FD  7B,undocumented,"ld a,e",2,8,FLAGS_NONE
+FD  7C,undocumented,"ld a,iyh",2,8,FLAGS_NONE
+FD  7D,undocumented,"ld a,iyl",2,8,FLAGS_NONE
+FD  7E  d,documented,"ld a,(iy+d)",3,19,FLAGS_NONE
+FD  7F,undocumented,"ld a,a",2,8,FLAGS_NONE
+FD  80,undocumented,"add a,b",2,8,FLAGS_NONE
+FD  81,undocumented,"add a,c",2,8,FLAGS_NONE
+FD  82,undocumented,"add a,d",2,8,FLAGS_NONE
+FD  83,undocumented,"add a,e",2,8,FLAGS_NONE
+FD  84,undocumented,"add a,iyh",2,8,FLAGS_NONE
+FD  85,undocumented,"add a,iyl",2,8,FLAGS_NONE
+FD  86  d,documented,"add a,(iy+d)",3,19,FLAGS_NONE
+FD  87,undocumented,"add a,a",2,8,FLAGS_NONE
+FD  88,undocumented,"adc a,b",2,8,FLAGS_NONE
+FD  89,undocumented,"adc a,c",2,8,FLAGS_NONE
+FD  8A,undocumented,"adc a,d",2,8,FLAGS_NONE
+FD  8B,undocumented,"adc a,e",2,8,FLAGS_NONE
+FD  8C,undocumented,"adc a,iyh",2,8,FLAGS_NONE
+FD  8D,undocumented,"adc a,iyl",2,8,FLAGS_NONE
+FD  8E  d,documented,"adc a,(iy+d)",3,19,FLAGS_NONE
+FD  8F,undocumented,"adc a,a",2,8,FLAGS_NONE
 FD  90,undocumented,sub b,2,8,FLAGS_NONE
 FD  91,undocumented,sub c,2,8,FLAGS_NONE
 FD  92,undocumented,sub d,2,8,FLAGS_NONE
@@ -1356,14 +1356,14 @@ FD  94,undocumented,sub iyh,2,8,FLAGS_NONE
 FD  95,undocumented,sub iyl,2,8,FLAGS_NONE
 FD  96  d,documented,sub (iy+d),3,19,FLAGS_NONE
 FD  97,undocumented,sub a,2,8,FLAGS_NONE
-FD  98,undocumented,sbc a,b,2,8,FLAGS_NONE
-FD  99,undocumented,sbc a,c,2,8,FLAGS_NONE
-FD  9A,undocumented,sbc a,d,2,8,FLAGS_NONE
-FD  9B,undocumented,sbc a,e,2,8,FLAGS_NONE
-FD  9C,undocumented,sbc a,iyh,2,8,FLAGS_NONE
-FD  9D,undocumented,sbc a,iyl,2,8,FLAGS_NONE
-FD  9E  d,documented,sbc a,(iy+d),3,19,FLAGS_NONE
-FD  9F,undocumented,sbc a,a,2,8,FLAGS_NONE
+FD  98,undocumented,"sbc a,b",2,8,FLAGS_NONE
+FD  99,undocumented,"sbc a,c",2,8,FLAGS_NONE
+FD  9A,undocumented,"sbc a,d",2,8,FLAGS_NONE
+FD  9B,undocumented,"sbc a,e",2,8,FLAGS_NONE
+FD  9C,undocumented,"sbc a,iyh",2,8,FLAGS_NONE
+FD  9D,undocumented,"sbc a,iyl",2,8,FLAGS_NONE
+FD  9E  d,documented,"sbc a,(iy+d)",3,19,FLAGS_NONE
+FD  9F,undocumented,"sbc a,a",2,8,FLAGS_NONE
 FD  A0,undocumented,and b,2,8,FLAGS_NONE
 FD  A1,undocumented,and c,2,8,FLAGS_NONE
 FD  A2,undocumented,and d,2,8,FLAGS_NONE
@@ -1415,7 +1415,7 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  E1,documented,pop iy,2,14,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  E3,documented,ex (sp),iy,2,23,FLAGS_NONE
+FD  E3,documented,"ex (sp),iy",2,23,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 FD  E5,documented,push iy,2,15,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -1437,7 +1437,7 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
-FD  F9,documented,ld sp,iy,2,10,FLAGS_NONE
+FD  F9,documented,"ld sp,iy",2,10,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
@@ -1445,259 +1445,259 @@ OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,None,None,0,0,FLAGS_NONE
 OP_NONE,documented,0,0,0,FLAGS_NONE
-FD  CB  d  00,undocumented,rlc (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  01,undocumented,rlc (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  02,undocumented,rlc (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  03,undocumented,rlc (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  04,undocumented,rlc (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  05,undocumented,rlc (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  00,undocumented,"rlc (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  01,undocumented,"rlc (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  02,undocumented,"rlc (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  03,undocumented,"rlc (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  04,undocumented,"rlc (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  05,undocumented,"rlc (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  06,documented,rlc (iy+d),4,23,FLAGS_NONE
-FD  CB  d  07,undocumented,rlc (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  08,undocumented,rrc (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  09,undocumented,rrc (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  0A,undocumented,rrc (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  0B,undocumented,rrc (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  0C,undocumented,rrc (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  0D,undocumented,rrc (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  07,undocumented,"rlc (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  08,undocumented,"rrc (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  09,undocumented,"rrc (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  0A,undocumented,"rrc (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  0B,undocumented,"rrc (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  0C,undocumented,"rrc (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  0D,undocumented,"rrc (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  0E,documented,rrc (iy+d),4,23,FLAGS_NONE
-FD  CB  d  0F,undocumented,rrc (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  10,undocumented,rl (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  11,undocumented,rl (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  12,undocumented,rl (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  13,undocumented,rl (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  14,undocumented,rl (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  15,undocumented,rl (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  0F,undocumented,"rrc (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  10,undocumented,"rl (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  11,undocumented,"rl (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  12,undocumented,"rl (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  13,undocumented,"rl (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  14,undocumented,"rl (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  15,undocumented,"rl (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  16,documented,rl (iy+d),4,23,FLAGS_NONE
-FD  CB  d  17,undocumented,rl (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  18,undocumented,rr (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  19,undocumented,rr (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  1A,undocumented,rr (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  1B,undocumented,rr (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  1C,undocumented,rr (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  1D,undocumented,rr (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  17,undocumented,"rl (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  18,undocumented,"rr (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  19,undocumented,"rr (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  1A,undocumented,"rr (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  1B,undocumented,"rr (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  1C,undocumented,"rr (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  1D,undocumented,"rr (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  1E,documented,rr (iy+d),4,23,FLAGS_NONE
-FD  CB  d  1F,undocumented,rr (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  20,undocumented,sla (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  21,undocumented,sla (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  22,undocumented,sla (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  23,undocumented,sla (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  24,undocumented,sla (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  25,undocumented,sla (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  1F,undocumented,"rr (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  20,undocumented,"sla (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  21,undocumented,"sla (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  22,undocumented,"sla (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  23,undocumented,"sla (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  24,undocumented,"sla (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  25,undocumented,"sla (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  26,documented,sla (iy+d),4,23,FLAGS_NONE
-FD  CB  d  27,undocumented,sla (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  28,undocumented,sra (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  29,undocumented,sra (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  2A,undocumented,sra (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  2B,undocumented,sra (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  2C,undocumented,sra (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  2D,undocumented,sra (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  27,undocumented,"sla (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  28,undocumented,"sra (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  29,undocumented,"sra (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  2A,undocumented,"sra (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  2B,undocumented,"sra (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  2C,undocumented,"sra (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  2D,undocumented,"sra (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  2E,documented,sra (iy+d),4,23,FLAGS_NONE
-FD  CB  d  2F,undocumented,sra (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  30,undocumented,sll (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  31,undocumented,sll (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  32,undocumented,sll (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  33,undocumented,sll (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  34,undocumented,sll (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  35,undocumented,sll (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  2F,undocumented,"sra (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  30,undocumented,"sll (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  31,undocumented,"sll (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  32,undocumented,"sll (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  33,undocumented,"sll (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  34,undocumented,"sll (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  35,undocumented,"sll (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  36,undocumented,sll (iy+d),4,23,FLAGS_NONE
-FD  CB  d  37,undocumented,sll (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  38,undocumented,srl (iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  39,undocumented,srl (iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  3A,undocumented,srl (iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  3B,undocumented,srl (iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  3C,undocumented,srl (iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  3D,undocumented,srl (iy+d),l,4,23,FLAGS_NONE
+FD  CB  d  37,undocumented,"sll (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  38,undocumented,"srl (iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  39,undocumented,"srl (iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  3A,undocumented,"srl (iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  3B,undocumented,"srl (iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  3C,undocumented,"srl (iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  3D,undocumented,"srl (iy+d),l",4,23,FLAGS_NONE
 FD  CB  d  3E,documented,srl (iy+d),4,23,FLAGS_NONE
-FD  CB  d  3F,undocumented,srl (iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  40,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  41,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  42,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  43,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  44,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  45,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  46,documented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  47,undocumented,bit 0,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  48,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  49,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  4A,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  4B,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  4C,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  4D,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  4E,documented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  4F,undocumented,bit 1,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  50,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  51,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  52,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  53,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  54,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  55,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  56,documented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  57,undocumented,bit 2,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  58,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  59,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  5A,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  5B,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  5C,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  5D,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  5E,documented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  5F,undocumented,bit 3,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  60,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  61,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  62,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  63,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  64,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  65,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  66,documented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  67,undocumented,bit 4,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  68,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  69,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  6A,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  6B,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  6C,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  6D,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  6E,documented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  6F,undocumented,bit 5,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  70,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  71,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  72,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  73,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  74,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  75,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  76,documented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  77,undocumented,bit 6,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  78,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  79,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  7A,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  7B,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  7C,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  7D,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  7E,documented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  7F,undocumented,bit 7,(iy+d),4,20,FLAGS_NONE
-FD  CB  d  80,undocumented,res 0,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  81,undocumented,res 0,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  82,undocumented,res 0,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  83,undocumented,res 0,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  84,undocumented,res 0,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  85,undocumented,res 0,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  86,documented,res 0,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  87,undocumented,res 0,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  88,undocumented,res 1,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  89,undocumented,res 1,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  8A,undocumented,res 1,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  8B,undocumented,res 1,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  8C,undocumented,res 1,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  8D,undocumented,res 1,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  8E,documented,res 1,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  8F,undocumented,res 1,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  90,undocumented,res 2,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  91,undocumented,res 2,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  92,undocumented,res 2,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  93,undocumented,res 2,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  94,undocumented,res 2,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  95,undocumented,res 2,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  96,documented,res 2,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  97,undocumented,res 2,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  98,undocumented,res 3,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  99,undocumented,res 3,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  9A,undocumented,res 3,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  9B,undocumented,res 3,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  9C,undocumented,res 3,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  9D,undocumented,res 3,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  9E,documented,res 3,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  9F,undocumented,res 3,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  A0,undocumented,res 4,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  A1,undocumented,res 4,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  A2,undocumented,res 4,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  A3,undocumented,res 4,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  A4,undocumented,res 4,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  A5,undocumented,res 4,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  A6,documented,res 4,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  A7,undocumented,res 4,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  A8,undocumented,res 5,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  A9,undocumented,res 5,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  AA,undocumented,res 5,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  AB,undocumented,res 5,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  AC,undocumented,res 5,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  AD,undocumented,res 5,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  AE,documented,res 5,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  AF,undocumented,res 5,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  B0,undocumented,res 6,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  B1,undocumented,res 6,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  B2,undocumented,res 6,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  B3,undocumented,res 6,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  B4,undocumented,res 6,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  B5,undocumented,res 6,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  B6,documented,res 6,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  B7,undocumented,res 6,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  B8,undocumented,res 7,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  B9,undocumented,res 7,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  BA,undocumented,res 7,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  BB,undocumented,res 7,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  BC,undocumented,res 7,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  BD,undocumented,res 7,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  BE,documented,res 7,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  BF,undocumented,res 7,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  C0,undocumented,set 0,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  C1,undocumented,set 0,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  C2,undocumented,set 0,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  C3,undocumented,set 0,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  C4,undocumented,set 0,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  C5,undocumented,set 0,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  C6,documented,set 0,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  C7,undocumented,set 0,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  C8,undocumented,set 1,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  C9,undocumented,set 1,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  CA,undocumented,set 1,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  CB,undocumented,set 1,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  CC,undocumented,set 1,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  CD,undocumented,set 1,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  CE,documented,set 1,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  CF,undocumented,set 1,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  D0,undocumented,set 2,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  D1,undocumented,set 2,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  D2,undocumented,set 2,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  D3,undocumented,set 2,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  D4,undocumented,set 2,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  D5,undocumented,set 2,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  D6,documented,set 2,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  D7,undocumented,set 2,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  D8,undocumented,set 3,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  D9,undocumented,set 3,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  DA,undocumented,set 3,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  DB,undocumented,set 3,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  DC,undocumented,set 3,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  DD,undocumented,set 3,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  DE,documented,set 3,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  DF,undocumented,set 3,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  E0,undocumented,set 4,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  E1,undocumented,set 4,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  E2,undocumented,set 4,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  E3,undocumented,set 4,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  E4,undocumented,set 4,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  E5,undocumented,set 4,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  E6,documented,set 4,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  E7,undocumented,set 4,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  E8,undocumented,set 5,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  E9,undocumented,set 5,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  EA,undocumented,set 5,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  EB,undocumented,set 5,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  EC,undocumented,set 5,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  ED,undocumented,set 5,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  EE,documented,set 5,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  EF,undocumented,set 5,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  F0,undocumented,set 6,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  F1,undocumented,set 6,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  F2,undocumented,set 6,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  F3,undocumented,set 6,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  F4,undocumented,set 6,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  F5,undocumented,set 6,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  F6,documented,set 6,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  F7,undocumented,set 6,(iy+d),a,4,23,FLAGS_NONE
-FD  CB  d  F8,undocumented,set 7,(iy+d),b,4,23,FLAGS_NONE
-FD  CB  d  F9,undocumented,set 7,(iy+d),c,4,23,FLAGS_NONE
-FD  CB  d  FA,undocumented,set 7,(iy+d),d,4,23,FLAGS_NONE
-FD  CB  d  FB,undocumented,set 7,(iy+d),e,4,23,FLAGS_NONE
-FD  CB  d  FC,undocumented,set 7,(iy+d),h,4,23,FLAGS_NONE
-FD  CB  d  FD,undocumented,set 7,(iy+d),l,4,23,FLAGS_NONE
-FD  CB  d  FE,documented,set 7,(iy+d),4,23,FLAGS_NONE
-FD  CB  d  FF,undocumented,set 7,(iy+d),a,4,23,FLAGS_NONE
+FD  CB  d  3F,undocumented,"srl (iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  40,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  41,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  42,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  43,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  44,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  45,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  46,documented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  47,undocumented,"bit 0,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  48,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  49,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  4A,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  4B,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  4C,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  4D,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  4E,documented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  4F,undocumented,"bit 1,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  50,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  51,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  52,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  53,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  54,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  55,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  56,documented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  57,undocumented,"bit 2,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  58,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  59,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  5A,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  5B,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  5C,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  5D,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  5E,documented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  5F,undocumented,"bit 3,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  60,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  61,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  62,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  63,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  64,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  65,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  66,documented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  67,undocumented,"bit 4,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  68,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  69,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  6A,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  6B,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  6C,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  6D,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  6E,documented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  6F,undocumented,"bit 5,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  70,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  71,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  72,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  73,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  74,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  75,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  76,documented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  77,undocumented,"bit 6,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  78,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  79,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  7A,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  7B,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  7C,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  7D,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  7E,documented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  7F,undocumented,"bit 7,(iy+d)",4,20,FLAGS_NONE
+FD  CB  d  80,undocumented,"res 0,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  81,undocumented,"res 0,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  82,undocumented,"res 0,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  83,undocumented,"res 0,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  84,undocumented,"res 0,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  85,undocumented,"res 0,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  86,documented,"res 0,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  87,undocumented,"res 0,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  88,undocumented,"res 1,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  89,undocumented,"res 1,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  8A,undocumented,"res 1,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  8B,undocumented,"res 1,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  8C,undocumented,"res 1,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  8D,undocumented,"res 1,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  8E,documented,"res 1,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  8F,undocumented,"res 1,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  90,undocumented,"res 2,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  91,undocumented,"res 2,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  92,undocumented,"res 2,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  93,undocumented,"res 2,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  94,undocumented,"res 2,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  95,undocumented,"res 2,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  96,documented,"res 2,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  97,undocumented,"res 2,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  98,undocumented,"res 3,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  99,undocumented,"res 3,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  9A,undocumented,"res 3,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  9B,undocumented,"res 3,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  9C,undocumented,"res 3,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  9D,undocumented,"res 3,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  9E,documented,"res 3,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  9F,undocumented,"res 3,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  A0,undocumented,"res 4,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  A1,undocumented,"res 4,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  A2,undocumented,"res 4,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  A3,undocumented,"res 4,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  A4,undocumented,"res 4,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  A5,undocumented,"res 4,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  A6,documented,"res 4,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  A7,undocumented,"res 4,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  A8,undocumented,"res 5,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  A9,undocumented,"res 5,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  AA,undocumented,"res 5,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  AB,undocumented,"res 5,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  AC,undocumented,"res 5,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  AD,undocumented,"res 5,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  AE,documented,"res 5,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  AF,undocumented,"res 5,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  B0,undocumented,"res 6,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  B1,undocumented,"res 6,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  B2,undocumented,"res 6,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  B3,undocumented,"res 6,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  B4,undocumented,"res 6,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  B5,undocumented,"res 6,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  B6,documented,"res 6,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  B7,undocumented,"res 6,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  B8,undocumented,"res 7,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  B9,undocumented,"res 7,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  BA,undocumented,"res 7,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  BB,undocumented,"res 7,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  BC,undocumented,"res 7,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  BD,undocumented,"res 7,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  BE,documented,"res 7,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  BF,undocumented,"res 7,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  C0,undocumented,"set 0,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  C1,undocumented,"set 0,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  C2,undocumented,"set 0,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  C3,undocumented,"set 0,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  C4,undocumented,"set 0,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  C5,undocumented,"set 0,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  C6,documented,"set 0,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  C7,undocumented,"set 0,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  C8,undocumented,"set 1,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  C9,undocumented,"set 1,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  CA,undocumented,"set 1,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  CB,undocumented,"set 1,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  CC,undocumented,"set 1,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  CD,undocumented,"set 1,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  CE,documented,"set 1,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  CF,undocumented,"set 1,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  D0,undocumented,"set 2,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  D1,undocumented,"set 2,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  D2,undocumented,"set 2,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  D3,undocumented,"set 2,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  D4,undocumented,"set 2,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  D5,undocumented,"set 2,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  D6,documented,"set 2,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  D7,undocumented,"set 2,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  D8,undocumented,"set 3,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  D9,undocumented,"set 3,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  DA,undocumented,"set 3,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  DB,undocumented,"set 3,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  DC,undocumented,"set 3,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  DD,undocumented,"set 3,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  DE,documented,"set 3,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  DF,undocumented,"set 3,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  E0,undocumented,"set 4,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  E1,undocumented,"set 4,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  E2,undocumented,"set 4,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  E3,undocumented,"set 4,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  E4,undocumented,"set 4,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  E5,undocumented,"set 4,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  E6,documented,"set 4,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  E7,undocumented,"set 4,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  E8,undocumented,"set 5,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  E9,undocumented,"set 5,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  EA,undocumented,"set 5,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  EB,undocumented,"set 5,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  EC,undocumented,"set 5,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  ED,undocumented,"set 5,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  EE,documented,"set 5,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  EF,undocumented,"set 5,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  F0,undocumented,"set 6,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  F1,undocumented,"set 6,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  F2,undocumented,"set 6,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  F3,undocumented,"set 6,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  F4,undocumented,"set 6,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  F5,undocumented,"set 6,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  F6,documented,"set 6,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  F7,undocumented,"set 6,(iy+d),a",4,23,FLAGS_NONE
+FD  CB  d  F8,undocumented,"set 7,(iy+d),b",4,23,FLAGS_NONE
+FD  CB  d  F9,undocumented,"set 7,(iy+d),c",4,23,FLAGS_NONE
+FD  CB  d  FA,undocumented,"set 7,(iy+d),d",4,23,FLAGS_NONE
+FD  CB  d  FB,undocumented,"set 7,(iy+d),e",4,23,FLAGS_NONE
+FD  CB  d  FC,undocumented,"set 7,(iy+d),h",4,23,FLAGS_NONE
+FD  CB  d  FD,undocumented,"set 7,(iy+d),l",4,23,FLAGS_NONE
+FD  CB  d  FE,documented,"set 7,(iy+d)",4,23,FLAGS_NONE
+FD  CB  d  FF,undocumented,"set 7,(iy+d),a",4,23,FLAGS_NONE
